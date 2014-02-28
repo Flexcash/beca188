@@ -251,19 +251,22 @@ echo '
 
 	<div class="col-md-6">	
 				<div class="form-group">
-						<label for="">201. La Institución con la que postulaste a BECA 18 fue tu primera opción?</label>
+						<label for="">201. La Institución con la que postulaste a BECA 18 fue tu primera opción? </label>
+						<p>(1)Si / (2)No</p>
 						' . form_input($C2P201) . '<div class="help-block error"></div>
 				</div>	
 
 				<div class="form-group">
 						<label for="">202. En que institución educativa te hubiera gustado estudiar?</label>
 						' . form_input($C2P202) . '
-						<label for="">... Es una?</label>
+						<label for="">202A. ... Es una? </label>
+						<p>(1)Instituto? / (2)Universidad?</p>
 						' . form_input($C2P202A) . '<div class="help-block error"></div>						
 				</div>	
 
 				<div class="form-group">
-						<label for="">203. La carrera con la que postulaste a BECA 18 fue tu primera opción?</label>
+						<label for="">203. La carrera con la que postulaste a BECA 18 fue tu primera opción? </label>
+						<p>(1)Si / (2)No</p>
 						' . form_input($C2P203) . '<div class="help-block error"></div>					
 				</div>	
 
@@ -362,7 +365,8 @@ echo '
 				</div>
 
 				<div class="form-group">
-						<label for="">207. Bajo que modalidad postulaste a la institución educativa a la cual ingresaste para BECA 18?</label>
+						<label for="">207. Bajo que modalidad postulaste a la institución educativa a la cual ingresaste para BECA 18? </label>
+						<p>(1)Examen descentralizado (patrocinado por Beca18)? / (2)Examen de admisión? / (3)Primeros puestos? / (4)Deportista calificado? / (5)Otro? / (6)No hubo examen de admisión</p>
 						' . form_input($C2P207) . '
 						<label for="">Especifique</label>
 						' . form_input($C2P207_OBS) . '<div class="help-block error"></div>						
@@ -378,7 +382,8 @@ echo '
 	<div class="col-md-6">	
 				<h4>Preparación Academica</h4>
 				<div class="form-group">
-						<label for="">208. Cómo te preparaste para postular a la institución educativa para BECA 18?</label>
+						<label for="">208. Cómo te preparaste para postular a la institución educativa para BECA 18? </label>
+						<p>(1)Por mi cuenta / (2)Academia pre universitaria / (3)Grupo de estudio / (4)Academia talento Beca18 (Huancavelica) / (5)Otro</p>
 						' . form_input($C2P208) . '
 						<label for="">Especifique</label>
 						' . form_input($C2P208_OBS) . '<div class="help-block error"></div>							
@@ -400,7 +405,8 @@ echo '
 				</div>	
 
 				<div class="form-group">
-						<label for="">210. Consideras que la preparación que tuviste fue suficiente para el examen de admisión?</label>
+						<label for="">210. Consideras que la preparación que tuviste fue suficiente para el examen de admisión?  </label>
+						<p>(1)Si / (2)No</p>
 						' . form_input($C2P210) . '	<div class="help-block error"></div>	
 				</div>	
 
@@ -409,11 +415,13 @@ echo '
 
 				<div class="form-group">
 						<label for="">211. Recibiste algún tipo de orientación o asistencia para elegir la carrera a la que ingresaste para BECA 18?</label>
+						<p>(1)Si / (2)No</p>
 						' . form_input($C2P211) . '	<div class="help-block error"></div>						
 				</div>	
 
 				<div class="form-group">
 						<label for="">212. Quién te brindo orientación o asistencia?</label>
+						<p>(1)Profesores, tutores del colegio? / (2)Profesores, tutores de la Universidad? / (3)Familiares? / (4)Amigos? / (5)Otro?</p>
 						' . form_input($C2P212) . '
 						<label for="">Especifique</label>
 						' . form_input($C2P212_OBS) . '<div class="help-block error"></div>							
@@ -445,6 +453,24 @@ echo form_close();
 
 $(function(){
 
+$('#C2P201').change(function(event) {
+	if($(this).val() == 1){
+		i_disable('#C2P202');
+		i_disable('#C2P202A');
+	}else{
+		i_enable('#C2P202');
+		i_enable('#C2P202A');
+	}
+});
+
+$('#C2P203').change(function(event) {
+	if($(this).val() == 1){
+		i_disable('#C2P204');
+	}else{
+		i_enable('#C2P204');
+	}
+});
+
 $('#C2P205_8').change(function(event) {
 	if($(this).val() == 1){
 		$('#C2P205_8OBS').removeAttr('disabled');
@@ -472,6 +498,25 @@ $('#C2P207').change(function(event) {
 	}
 });
 
+
+$('#C2P207').change(function(event) {
+	if($(this).val() == 6){
+		i_disable('#C2P208');
+		i_disable('#C2P208_OBS');
+		i_disable('#C2P209_ANIO');
+		i_disable('#C2P209_MES');
+		i_disable('#C2P210');
+	}else{
+		i_enable('#C2P208');
+		i_enable('#C2P208_OBS');
+		i_enable('#C2P209_ANIO');
+		i_enable('#C2P209_MES');
+		i_enable('#C2P210');		
+	}
+});
+
+
+
 $('#C2P208').change(function(event) {
 	if($(this).val() == 5){
 		$('#C2P208_OBS').removeAttr('disabled');
@@ -480,6 +525,18 @@ $('#C2P208').change(function(event) {
 		$('#C2P208_OBS').attr('disabled','disabled');
 	}
 });
+
+
+$('#C2P211').change(function(event) {
+	if($(this).val() == 2){
+		i_disable('#C2P212');
+		i_disable('#C2P212_OBS');
+	}else{
+		i_enable('#C2P212');
+		i_enable('#C2P212_OBS');
+	}
+});
+
 
 $('#C2P212').change(function(event) {
 	if($(this).val() == 5){
@@ -495,7 +552,7 @@ $('#C2P212').change(function(event) {
 if(<?php echo $CAP02->num_rows() ?> == 1){
 
 	$.each( <?php echo json_encode($CAP02->row()); ?>, function(fila, valor) {
-	    if(fila == 'C2P205_8' || fila == 'C2P206_5' || fila == 'C2P207' || fila == 'C2P208' || fila == 'C2P212'){
+	    if(fila == 'C2P201'|| fila == 'C2P203'  || fila == 'C2P205_8' || fila == 'C2P206_5' || fila == 'C2P207' || fila == 'C2P208' || fila == 'C2P212'){
 			$('#' + fila).val(valor);
 			$('#' + fila).trigger('change');		
 		}else{

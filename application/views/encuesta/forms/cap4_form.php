@@ -88,7 +88,7 @@ $C4_OBS = array(
 $pcap4_num = array(
 	'name'	=> 'pcap4_num',
 	'id'	=> 'pcap4_num',
-	'class' => 'form-control',
+	'class' => 'form-control input3 col-centered valid',
 	'maxlength'	=> 2,
 );
 
@@ -130,11 +130,11 @@ echo '
 					               <tr>
 					                 <th class="span3">Nro de Orden</th>
 					                 <th class="span3">Nombre</th>
-					                 <th class="span3">Tipo de relación</th>
-					                 <th class="span3">Es tu compañero en la especialidad que estudias</th>
-					                 <th class="span3">Es becario del programa Beca 18</th>
-					                 <th class="span3">Sexo</th>
-					                 <th class="span3">Vive en el Perú o en el extranjero</th>
+					                 <th class="span3">Tipo de relación <br /> (1)Familiar / (2)Amistad / (3)Pareja / (4)Laboral o profesional / (5)Profesor o tutor / (6)Universidad/Instituto / (7)Otro</th>
+					                 <th class="span3">Es tu compañero en la especialidad que estudias <br / >(1)Si / (2)No</th>
+					                 <th class="span3">Es becario del programa Beca 18 <br / >(1)Si / (2)No</th>
+					                 <th class="span3">Sexo<br / > (1)Hombre / (2)Mujer</th>
+					                 <th class="span3">Vive en el Perú o en el extranjero <br / >(1)Perú / (2)Extranjero</th>
 					                 <th class="span3">En que Departamento vive?</th>
 					                 <th class="span3">En que Provincia vive?</th>
 					                 <th class="span3">En que Distrito vive</th>

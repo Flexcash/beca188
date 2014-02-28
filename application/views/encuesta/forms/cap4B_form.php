@@ -540,7 +540,7 @@ echo '
 					          <thead>
 					               <tr>
 					                 <th class="span3"></th>
-					                 <th class="span3">Diario? / Interdiario? / Semanal? / Mensualmente? / Nunca</th>
+					                 <th class="span3">(1)Diario? / (2)Interdiario? / (3)Semanal? / (4)Mensualmente? / (5)Nunca</th>
 					                 <th class="span3"></th>
 					                 <th class="span3"></th>
 					                 <th class="span3"></th>
@@ -627,6 +627,7 @@ echo '
 	<div class="col-md-6">	
 			<div class="form-group">
 				<label for="">413. Accedes al servicio de Internet?</label>
+						<p>(1)Si / (2)No</p>
 						' . form_input($C4P413) . '<div class="help-block error"></div>					
 			</div>
 
@@ -639,7 +640,7 @@ echo '
 					          <thead>
 					               <tr>
 					                 <th class="span3"></th>
-					                 <th class="span3">Diario? / Interdiario? / Semanal? / Mensualmente? / Nunca</th>
+					                 <th class="span3">(1)Diario? / (2)Interdiario? / (3)Semanal? / (4)Mensualmente? / (5)Nunca</th>
 					                </tr>					              
 					         </thead>
 					         <tbody>
@@ -676,10 +677,10 @@ echo '
 					                </tr>						          
 					               <tr>
 					                 <th class="span3"></th>
-					                 <th class="span3"></th>
-					                 <th class="span3">415A. Va a las reuniones?</th>
-					                 <th class="span3">415B. Participa en los procesos de decisión?</th>
-					                 <th class="span3">415C. Eres uno de los líderes en el grupo u organización?</th>
+					                 <th class="span3">(1)Si / (2)No</th>
+					                 <th class="span3">415A. Va a las reuniones? <br />(1)Si / (2)No</th>
+					                 <th class="span3">415B. Participa en los procesos de decisión? <br />(1)Si / (2)No</th>
+					                 <th class="span3">415C. Eres uno de los líderes en el grupo u organización? <br />(1)Si / (2)No</th>
 					                </tr>					              
 					         </thead>
 					         <tbody>

@@ -311,16 +311,19 @@ echo '
 
 			<div class="form-group">
 				<label for="">501. La semana pasada, del ..... al .... Tuvo usted algún trabajo? (Sin contar los quehaceres del hogar)</label>
+						<p>(1)Si / (2)No</p>
 						' . form_input($C5P501) . '<div class="help-block error"></div>					
 			</div>
 
 			<div class="form-group">
 				<label for="">502. Aunque no trabajo la semana pasada. Tiene algun empleo fijo al que próximamente volverá?</label>
+						<p>(1)Si / (2)No</p>
 						' . form_input($C5P502) . '<div class="help-block error"></div>					
 			</div>
 
 			<div class="form-group">
 				<label for="">503. Aunque no trabajo la semana pasada. Tiene algun negocio propio al que próximamente volverá?</label>
+						<p>(1)Si / (2)No</p>
 						' . form_input($C5P503) . '<div class="help-block error"></div>					
 			</div>
 
@@ -331,7 +334,7 @@ echo '
 					              <thead>
 					               <tr>
 					                 <th class="span3"></th>
-					                 <th class="span1">Si / No</th>
+					                 <th class="span1">(1)Si / (2)No</th>
 					                </tr>
 					             </thead>
 					              <tbody>
@@ -406,6 +409,7 @@ echo '
 
 			<div class="form-group">
 				<label for="">507. Ud. se desempeñó en su ocupación principal o negocio como:</label>
+				<p>(1)¿Empleador o patrono? / (2)¿Trabajador independiente? / (3)¿Empleado? / (4)¿Obrero? / (5)¿Trabajador familiar no remunerado? / (6)¿Trabajador del hogar? / (7)Otro</p>
 						' . form_input($C5P507) . '<div class="help-block error"></div>
 						<p>Especifique</p>
 						' . form_input($C5P507_OBS) . '<div class="help-block error"></div>												
@@ -413,6 +417,7 @@ echo '
 
 			<div class="form-group">
 				<label for="">508. Bajo que tipo de contrato:</label>
+		<p>(1)¿Contrato indefinido, nombrado permanente? / (2)¿Contrato a plazo fijo (sujeto a modalidad) / (3)¿Está en periodo de prueba / (4)¿Convenios de Formación Laboral Juvenil/Prácticas pre-profesionales? / (5)¿Contrato por locación de servicios (Honorarios profesionales, RUC), SNP / (6)¿Régimen Especial de Contratación Administrativa (CAS)? / (7)Sin contrato / (8)¿Otro?</p>		
 						' . form_input($C5P508) . '<div class="help-block error"></div>
 						<p>Especifique</p>
 						' . form_input($C5P508_OBS) . '<div class="help-block error"></div>												
@@ -489,6 +494,7 @@ echo '
 
 			<div class="form-group">
 				<label for="">510. En su ocupación principal. A Ud. le pagan?</label>
+				<p>(1)Diario? / (2)Semanal / (3)Quincenal / (4)Mensual / (0)No recibe remuneración</p>
 						' . form_input($C5P510) . '<div class="help-block error"></div>					
 			</div>
 
@@ -538,6 +544,7 @@ echo '
 	<div class="col-md-6">		
 			<div class="form-group">
 				<label for="">513. El sistema de seguro de Salud al cual ud. esta afiliado es:</label>
+				<p>(1)¿ESSALUD? / (2)¿Seguro Privado de Salud? / (3)¿Ambos? / (4)¿Otros? / (5)No estás afiliado</p>
 						' . form_input($C5P513) . '<div class="help-block error"></div>
 						<p>Especifique</p>
 						' . form_input($C5P513_OBS) . '<div class="help-block error"></div>												
@@ -545,6 +552,7 @@ echo '
 
 			<div class="form-group">
 				<label for="">514. Por sus antepasados y de acuerdo a sus costumbres. Usted se considera?</label>
+				<p>(1)Quechua? / (2)Aymara? / (3)Nativo o indígena de la Amazonía? / (4)Negro, mulato, zambo, afroperuano? / (5)Blanco? / (6)Mestizo? / (7)Otro	</p>		
 						' . form_input($C5P514) . '<div class="help-block error"></div>
 						<p>Especifique</p>
 						' . form_input($C5P514_OBS) . '<div class="help-block error"></div>												

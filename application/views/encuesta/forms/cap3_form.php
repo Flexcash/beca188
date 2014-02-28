@@ -1626,11 +1626,13 @@ echo '
 
 			<div class="form-group">
 				<label for="">301. Actualmente. Te encuentras matriculado en alguna institución de educación superior</label>
+						<p>(1)Si / (2)No</p>
 						' . form_input($C3P301) . '<div class="help-block error"></div>						
 			</div>		
 
 			<div class="form-group">
 				<label for="">302. La Institución donde te encuentras matriculado es una(un)...</label>
+						<p>(1)Universidad Pública? / (2)Universidad Privada? / (3)Instituto Público? / (4)Instituto Privado</p>
 						' . form_input($C3P302) . '<div class="help-block error"></div>						
 			</div>	
 
@@ -1638,7 +1640,9 @@ echo '
 			<div class="form-group">
 				<label for="">303. Cual es el nombre de la (del)...</label>
 						' . form_input($C3P303) . '<div class="help-block error"></div>			
-				<p>Es la ...... con la que postulaste para BECA 18?</p>
+				<label for="">303A. Es la ...... con la que postulaste para BECA 18?</label>
+						<p>(1)Si / (2)No</p>
+
 						' . form_input($C3P303A) . '<div class="help-block error"></div>									
 			</div>	
 
@@ -1726,6 +1730,7 @@ echo '
 	<div class="col-md-6">	
 			<div class="form-group">
 				<label for="">308. En el año 2013. Estuviste matriculado en alguna institución de educación superior?</label>
+						<p>(1)Si / (2)No</p>
 						' . form_input($C3P308) . '<div class="help-block error"></div>						
 			</div>		
 
@@ -1785,6 +1790,7 @@ echo '
 
 			<div class="form-group">
 				<label for="">310. Tienes planes de retomar tus estudios</label>
+						<p>(1)Si / (2)No</p>
 						' . form_input($C3P310) . '<div class="help-block error"></div>						
 			</div>
 
@@ -1805,13 +1811,15 @@ echo '
 
 			<div class="form-group">
 				<label for="">312. La institución educativa donde te encontrabas matriculado es una(un)</label>
+				<p>(1)Universidad Pública? / (2)Universidad Privada? / (3)Instituto Público? / (4)Instituto Privado?</p>
 						' . form_input($C3P312) . '<div class="help-block error"></div>						
 			</div>
 
 			<div class="form-group">
 				<label for="">313. Cuál es el nombre de la (del)...</label>
 						' . form_input($C3P313) . '<div class="help-block error"></div>		
-				<p>Era la ...... con la que postulaste a BECA 18</p>
+				<label for="">Era la ...... con la que postulaste a BECA 18</label>
+						<p>(1)Si / (2)No</p>
 						' . form_input($C3P313A) . '<div class="help-block error"></div>										
 			</div>		
 
@@ -1934,6 +1942,7 @@ echo '
 
 			<div class="form-group">
 				<label for="">319. Tienes planes de estudiar en alguna institución de educación superior en el futuro?</label>
+						<p>(1)Si / (2)No</p>
 						' . form_input($C3P319) . '<div class="help-block error"></div>						
 			</div>	
 
@@ -2080,6 +2089,7 @@ echo '
 
 			<div class="form-group">
 				<label for="">329. Cuál es la principal razón por la que no aprobaste esos cursos?</label>
+				<p>(1)Dificultad del curso / (2)Método de enseñanza del profesor no ayuda / (3)La estrategia de estudios que he tenido no funciona / (4)No tengo apoyo en los contenidos / (5)Falta nivelación en los cursos / (6)Tengo problema con el idioma(castellano como segunda lengua o extranjero) / (7)No tengo tiempo para estudiar / (8)He tenido problemas personales (emocionales, de salud o estrés por razones familiares) / (9)No tengo dinero para comprar materiales / (10)Otra</p>
 						' . form_input($C3P329) . '<div class="help-block error"></div>
 						<p>Especifique</p>
 						' . form_input($C3P329_OBS) . '<div class="help-block error"></div>	
@@ -2121,12 +2131,13 @@ echo '
 
 			<div class="form-group">
 				<label for="">333. En algún momento desde que ingresaste a la institución educativa superior has recibido servicio de tutorias?</label>
-						<p>Número de años</p>
+						<p>(1)Si / (2)No</p>
 						' . form_input($C3P333) . '<div class="help-block error"></div>						
 			</div>
 
 			<div class="form-group">
 				<label for="">334. Quién te brindó el servicio de tutorías?</label>
+				<p>(1)Tutor de la Institución Educativa donde estudió/estudia? / (2)Tutor fuera de la Institución Educativa Superior? / (3)Tutor de las academias? / (4)Psicólogo fuera de la Institución? / (5)Familiar? / (6)Otro?</p>
 						' . form_input($C3P334) . '<div class="help-block error"></div>
 						<p>Especifique</p>
 						' . form_input($C3P334_OBS) . '<div class="help-block error"></div>	
@@ -2137,7 +2148,7 @@ echo '
 					<p>Consignar número de tutorías</p>
 					<div class="row">
 							<div class="col-md-6">	
-								<p></p>
+								<p> </p>
 								' . form_input($C3P335) . '<div class="help-block error"></div>	
 							</div>		
 							<div class="col-md-6">	
@@ -2186,6 +2197,7 @@ echo '
 
 			<div class="form-group">
 				<label for="">337. Con qué frecuencia te reunes con tu tutor?</label>
+					<p>(1)Diario / (2)Interdiario / (3)Semanal / (4)Mensual / (5)Otro / (6)Nunca</p>
 						' . form_input($C3P337) . '
 						<p>Especifique</p>
 						' . form_input($C3P337_OBS) . '<div class="help-block error"></div>	
@@ -2215,7 +2227,7 @@ echo '
 					                </tr>					              
 					               <tr>
 					                 <th class="span3"></th>
-					                 <th class="span3">Si / No</th>
+					                 <th class="span3">(1)Si / (2)No</th>
 					                 <th class="span1">1. Nada efectivo / 2. Algo efectivo / 3. Efectivo? / 4. Muy efectivo?</th>
 					                </tr>
 					             </thead>
@@ -2270,7 +2282,7 @@ echo '
 					                </tr>					              
 					               <tr>
 					                 <th class="span3"></th>
-					                 <th class="span3">Si / No</th>
+					                 <th class="span3">(1)Si / (2)No</th>
 					                 <th class="span3">1. Nada efectivo / 2. Poco efectivo / 3. Efectivo? / 4. Muy efectivo?</th>
 					                </tr>
 					             </thead>
@@ -2338,7 +2350,7 @@ echo '
 					                </tr>					              
 					               <tr>
 					                 <th class="span3"></th>
-					                 <th class="span3">Si / No</th>
+					                 <th class="span3">(1)Si / (2)No</th>
 					                 <th class="span1">1. Nada efectivo / 2. Algo efectivo / 3. Efectivo? / 4. Muy efectivo?</th>
 					                </tr>
 					             </thead>
@@ -2393,7 +2405,7 @@ echo '
 					                </tr>					              
 					               <tr>
 					                 <th class="span3"></th>
-					                 <th class="span3">Si / No</th>
+					                 <th class="span3">(1)Si / (2)No</th>
 					                 <th class="span3">1. Nada efectivo / 2. Poco efectivo / 3. Efectivo? / 4. Muy efectivo?</th>
 					                </tr>
 					             </thead>
@@ -2447,6 +2459,8 @@ echo '
 
 			<div class="form-group">
 				<label for="">346. Cuán satisfecho te encuentras / encontrabas con el servicio de tutorias?</label>
+					<p>(1) Muy satisfecho / (2)Satisfecho / (3)Algo satisfecho / (4)Nada satisfecho </p>
+
 						<p>Individual</p>
 						' . form_input($C3P346_1) . '<div class="help-block error"></div>	
 						<p>Grupal</p>
@@ -2470,6 +2484,7 @@ echo '
 
 			<div class="form-group">
 				<label for="">347. Cuánto crees que te han ayudado las tutorías para</label>
+					<p>(1)Ayudó Mucho / (2)Ayudo algo / (3)No ayudo en nada</p>
 						<table class="table table-condensed" id="emb_table">
 					              <thead>
 					               <tr>
@@ -2528,11 +2543,13 @@ echo '
 
 			<div class="form-group">
 				<label for="">348. Alguien te ayuda con tus tareas?</label>
+				<p>(1)Si / (2)No</p>
 						' . form_input($C3P348) . '<div class="help-block error"></div>						
 			</div>
 
 			<div class="form-group">
 				<label for="">349. Quién te ayuda con tus tareas?</label>
+					<p>(1)Familiar / (2)Amigo / (3)Tutor / (4)Otro</p>
 						' . form_input($C3P349) . '<div class="help-block error"></div>
 						<p>Especifique</p>
 						' . form_input($C3P349_OBS) . '<div class="help-block error"></div>												
@@ -2540,6 +2557,7 @@ echo '
 
 			<div class="form-group">
 				<label for="">350. Durante el año 2013. Has llevado curos de Nivelación?</label>
+				<p>(1)Si / (2)No</p>
 						' . form_input($C3P350) . '						
 			</div>
 
@@ -2586,6 +2604,7 @@ echo '
 	<div class="col-md-6">	
 			<div class="form-group">
 				<label for="">352. Algunos de los cursos de Nivelación los has llevado dentro de la Institución donde estudias?</label>
+				<p>(1)Si / (2)No</p>
 						' . form_input($C3P352) . '<div class="help-block error"></div>					
 			</div>
 
@@ -2594,17 +2613,20 @@ echo '
 
 			<div class="form-group">
 				<label for="">353. Con qué frecuencia participas de los eventos organizados por tu institución? (Días culturales, Exposiciones, Eventos, etc.)</label>
+						<p>(1)Siempre / (2)La mayoría de las veces / (3)Casi nunca / (4)Nunca</p>
 						' . form_input($C3P353) . '<div class="help-block error"></div>												
 			</div>	
 
 
 			<div class="form-group">
 				<label for="">354. En cuántas actividades extra académicas te has inscrito desde que ingresaste a la institución educativa superior? (Fútbol, taller de escritura, etc)</label>
+					<p>(1)Una / (2)Dos / (3)Tres / (4)Más de tres / (5)Ninguna</p>
 						' . form_input($C3P354) . '<div class="help-block error"></div>					
 			</div>
 
 			<div class="form-group">
 				<label for="">355. Cuál es la razón principal por la que no te has inscrito en ninguna actividad extra académica?</label>
+						<p>(1)Porque no me interesa / (2)Porque no puedo pagarlas / (3)Porque prefiero estudiar / (4)Porque no se inscriben mis compañeros / (5)Otra</p>
 						' . form_input($C3P355) . '<div class="help-block error"></div>
 						<p>Especifique</p>
 						' . form_input($C3P355_OBS) . '<div class="help-block error"></div>												
@@ -2612,6 +2634,7 @@ echo '
 
 			<div class="form-group">
 				<label for="">356. Alguna vez has sido delegado de algún curso?</label>
+				<p>(1)Si / (2)No</p>
 						' . form_input($C3P356) . '<div class="help-block error"></div>					
 			</div>
 
@@ -2642,11 +2665,13 @@ echo '
 
 			<div class="form-group">
 				<label for="">358. Crees que terminarás la carrera sin haber desaprobado algún curso?</label>
+				<p>(1)Si / (2)No</p>
 						' . form_input($C3P358) . '<div class="help-block error"></div>												
 			</div>
 
 			<div class="form-group">
 				<label for="">359. Crees que podrás terminar tus estudios sin interrupciones?</label>
+				<p>(1)Si / (2)No / (3)No sé</p>
 						' . form_input($C3P359) . '<div class="help-block error"></div>						
 			</div>
 

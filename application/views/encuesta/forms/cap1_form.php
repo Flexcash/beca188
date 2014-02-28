@@ -20,7 +20,7 @@ $test = array(
 $pcap1_num = array(
 	'name'	=> 'pcap1_num',
 	'id'	=> 'pcap1_num',
-	'class' => 'form-control',
+	'class' => 'form-control input3 col-centered valid',
 	'maxlength'	=> 2,
 );
 
@@ -56,17 +56,17 @@ echo '
 									<tr>
 										<td>Nro de Orden</td>
 										<td colspan="3">Cuales son los nombres y apellidos de cada una de las personas que viven permanentemente en tu hogar de origen y de los hermanos que no viven en este hogar?</td>
-										<td>Cual es la relacion de parentesco con el postulante?</td>
-										<td>Vive permanentemente en tu hogar de origen?</td>
-										<td>Sexo</td>
+										<td>Cual es la relacion de parentesco con el postulante? <br /><b>(1)Postulante / (2)Padre / (3)Madre / (4)Hermano(a) / (5)Esposo(a) / (6)Hijo(a) / (7)Abuelo(a) / (8)Otros parientes / (9)Otros no parientes</b></td>
+										<td>Vive permanentemente en tu hogar de origen? <br /><b>(1)Si / (2)No</b></td>
+										<td>Sexo <br /><b>(1)Hombre / (2)Mujer</b></td>
 										<td>Qué edad tiene en años cumplidos?</td>
 									</tr>
 									<tr>
 										<td></td>
-										<td>Nombre</td>
-										<td>Ap. Paterno</td>
-										<td>Ap. Materno</td>
-										<td></td>
+										<td width="20%">Nombre</td>
+										<td width="20%">Ap. Paterno</td>
+										<td width="20%">Ap. Materno</td>
+										<td width="20%"></td>
 										<td></td>
 										<td></td>
 										<td></td>
@@ -104,14 +104,14 @@ echo '
 									</tr>								
 									<tr>
 										<td>Nro de Orden</td>
-										<td>Cual es el nivel de estudios mas alto que aprobó?</td>
-										<td>Cual es el idioma o lengua extranjera que aprendió en su niñez?</td>
-										<td>Ha postulado a BECA 18?</td>
-										<td>Ha sido aceptado en BECA 18?</td>
-										<td>Planea postular a BECA 18?</td>
-										<td>Es tu apoderado?</td>
-										<td>Te apoya económicamente?</td>
-										<td>Con que frecuencia te comunicas con:</td>
+										<td width="20%">Cual es el nivel de estudios mas alto que aprobó? <br /><b>(1)Sin nivel / (2)Inicial / (3)Primaria / (4)Secundaria / (5)Superior No Universitaria / (6)Superior Universitaria / (7)Post- Grado u otro similar</b></td>
+										<td width="20%">Cual es el idioma o lengua extranjera que aprendió en su niñez? <br /><b> (1)Castellano / (2)Quechua / (3)Aymara / (4)Ashaninka / (5)Idioma extranjero / (6)Es sordomudo/a mudo/a	 / (7)Otra lengua nativa</b></td>
+										<td>Ha postulado a BECA 18? <br /><b>(1)Si / (2)No</b></td>
+										<td>Ha sido aceptado en BECA 18? <br /><b>(1)Si / (2)No</b></td>
+										<td>Planea postular a BECA 18? <br /><b>(1)Si / (2)No</b></td>
+										<td>Es tu apoderado? <br /><b>(1)Si / (2)No</b></td>
+										<td>Te apoya económicamente? <br /><b>(1)Si / (2)No</b></td>
+										<td width="20%">Con que frecuencia te comunicas con: <br /><b>(1)Diario? / (2)Interdiario? / (3)Semanal? / (4)Quincenal? / (5)Mensual? / (6)Otro? / (7)Nunca</b></td>
 									</tr>
 
 								</tbody>
@@ -211,7 +211,7 @@ $('#pcap1_an tr').remove('.entrev');
 $('#pcap1_bn tr').remove('.entrev');
 
 	var ahua = $(this).val();
-	if(ahua >= 0 && ahua<=10){
+	if(ahua >= 0 && ahua<=20){
 	  for(var i=1; i<=ahua;i++){
 	    var asd = '<tr class="entrev">';
 	    asd +='<td><input type="text" class="form-control input3 embc' + i + '" maxlength="2" readonly name="C1P101[]" id="C1P101_' + i + '" value="' + i + '" ></td>';

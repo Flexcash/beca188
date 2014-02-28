@@ -829,7 +829,7 @@ echo '
 					                </tr>	
 					               <tr>
 					                 <th class="span3"></th>
-					                 <th class="span3">Sí / No</th>
+					                 <th class="span3">(1)Si / (2)No</th>
 					                 <th class="span3">Horas</th>
 					                 <th class="span3">Minutos</th>
 					                 <th class="span3">Anotaciones</th>	

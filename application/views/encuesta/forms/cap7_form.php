@@ -207,7 +207,8 @@ echo '
 						<table class="table table-condensed" id="emb_table">
 					          <thead>
 					               <tr>
-					                 <th class="span3">Marque con un circulo (O) en el número de la respuesta que más se parezca a cómo es usted</th>
+					                 <th class="span3">Marque el número de la respuesta que más se parezca a cómo es usted </th>
+					                 <p>(1)Poco parecido a mi forma de ser / (2)Algo parecido a mi forma de ser / (3)Parecido a mi forma de ser / (4)Muy parecido a mi forma de ser</p>
 					                 <th class="span3"></th>
 					                </tr>					              
 					         </thead>
@@ -291,7 +292,8 @@ echo '
 
 
 				<label for="">702. Test de Bienestar</label>
-				<p>A continuación encontrará 5 afirmaciones usando la escala del 1 al 7 mostrada abajo, indique su grado de acuerdo o desacuerdo con cada afirmación, colocando el número apropiado sobre la línea que está antes de cada oración. Por favor sea transparente y sincero en sus respuestas.</p>
+				<label>A continuación encontrará 5 afirmaciones usando la escala del 1 al 7 mostrada abajo, indique su grado de acuerdo o desacuerdo con cada afirmación, colocando el número apropiado sobre la línea que está antes de cada oración. Por favor sea transparente y sincero en sus respuestas.</label>
+					<p>(1)Totalmente en descuerdo / (2)En desacuerdo / (3)Ligeramente en desacuerdo / (4)Ni de acuerdo ni en desacuerdo / (5)Ligeramente de acuerdo / (6)De acuerdo / (7)Totalmente de acuerdo</p>
 						<table class="table table-condensed" id="emb_table">
 					          <thead>
 					               <tr>

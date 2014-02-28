@@ -258,7 +258,7 @@ $C0P18LUGENCUEST = array(
 	'name'	=> 'C0P18LUGENCUEST',
 	'id'	=> 'C0P18LUGENCUEST',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control input3 col-centered valid',
 );
 
 
@@ -337,7 +337,7 @@ $C0P21_3B = array(
 $pcar_num = array(
 	'name'	=> 'pcar_num',
 	'id'	=> 'pcar_num',
-	'class' => 'form-control',
+	'class' => 'form-control input3 col-centered valid',
 	'maxlength'	=> 2,
 );
 //FIN CAR
@@ -452,10 +452,10 @@ echo '
 echo '
 <div class="row">
 	<div class="col-lg-6 col-lg-offset-3">	
-				<h4 class="panel-title">8. Dirección actual donde vive actualmente el postulante</h4>
+				<h4 class="panel-title">8. Dirección de la vivienda donde vive actualmente el postulante</h4>
 				<div class="form-group">
 					<label class="">Tipo de Vía</label>
-						'.form_input($C0TIPVIA).' <div class="help-block error"></div> 1. Avenida , 2. Jiron , 3. Calle , 4. Pasaje , 5. Carretera, 6. Autopista , 7. Otro
+						'.form_input($C0TIPVIA).' <div class="help-block error"></div> (1) Avenida , (2) Jiron , (3) Calle , (4) Pasaje , (5) Carretera, (6) Autopista , (7) Otro
 					
 				</div>
 	</div>
@@ -550,7 +550,7 @@ echo '
 <div class="row">
 	<div class="col-md-12">	
 				<div class="form-group">
-						<label for="">13. La vivienda en la que vives actualmente es tu vivienda de origen?</label>
+						<label for="">13. La vivienda en la que vives actualmente es tu vivienda de origen? (1)Si / (2)No</label>
 						' . form_input($C0VIVORIG) . '<div class="help-block error"></div>
 				</div>	
 
@@ -566,7 +566,7 @@ echo '
 				<h4 class="panel-title">14. Dirección de la vivienda de origen del postulante</h4>
 				<div class="form-group">
 					<label class="">Tipo de Vía</label>
-						'.form_input($C0VOTIPVIA).' <div class="help-block error"></div> 1. Avenida , 2. Jiron , 3. Calle , 4. Pasaje , 5. Carretera, 6. Autopista , 7. Otro
+						'.form_input($C0VOTIPVIA).' <div class="help-block error"></div> (1) Avenida , (2) Jiron , (3) Calle , (4) Pasaje , (5) Carretera, (6) Autopista , (7) Otro
 					
 				</div>
 				<div class="table-responsive">
@@ -628,7 +628,7 @@ echo '
 				<div class="form-group">
 						<label for="">18. La Encuesta se realizó en</label>
 						' . form_input($C0P18LUGENCUEST) . '<div class="help-block error"></div>
-						Vivienda de origen del postulante 1, Vivienda temporal del estudiante 2, Institución Educativa 3					 				
+						(1) Vivienda de origen del postulante , (2) Vivienda temporal del estudiante, (3) Institución Educativa 3, (4) Web, (5) Teléfono				 				
 				</div>	
 
 
