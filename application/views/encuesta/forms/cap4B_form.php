@@ -140,91 +140,91 @@ $C4P415_1 = array(
 	'name'	=> 'C4P415_1',
 	'id'	=> 'C4P415_1',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap4b_res',
 );
 
 $C4P415_2 = array(
 	'name'	=> 'C4P415_2',
 	'id'	=> 'C4P415_2',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap4b_res',
 );
 
 $C4P415_3 = array(
 	'name'	=> 'C4P415_3',
 	'id'	=> 'C4P415_3',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap4b_res',
 );
 
 $C4P415_4 = array(
 	'name'	=> 'C4P415_4',
 	'id'	=> 'C4P415_4',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap4b_res',
 );
 
 $C4P415_5 = array(
 	'name'	=> 'C4P415_5',
 	'id'	=> 'C4P415_5',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap4b_res',
 );
 
 $C4P415_6 = array(
 	'name'	=> 'C4P415_6',
 	'id'	=> 'C4P415_6',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap4b_res',
 );
 
 $C4P415_7 = array(
 	'name'	=> 'C4P415_7',
 	'id'	=> 'C4P415_7',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap4b_res',
 );
 
 $C4P415_8 = array(
 	'name'	=> 'C4P415_8',
 	'id'	=> 'C4P415_8',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap4b_res',
 );
 
 $C4P415_9 = array(
 	'name'	=> 'C4P415_9',
 	'id'	=> 'C4P415_9',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap4b_res',
 );
 
 $C4P415_10 = array(
 	'name'	=> 'C4P415_10',
 	'id'	=> 'C4P415_10',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap4b_res',
 );
 
 $C4P415_11 = array(
 	'name'	=> 'C4P415_11',
 	'id'	=> 'C4P415_11',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap4b_res',
 );
 
 $C4P415_12 = array(
 	'name'	=> 'C4P415_12',
 	'id'	=> 'C4P415_12',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap4b_res',
 );
 
 $C4P415_13 = array(
 	'name'	=> 'C4P415_13',
 	'id'	=> 'C4P415_13',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap4b_res',
 );
 
 $C4P415_13OBS = array(
@@ -821,11 +821,45 @@ $('#C4P412_4').change(function(event) {
 
 });
 
+$('#C4P413').change(function(event) {
+
+	if($(this).val() == 2){
+		i_disable('#C4P414_1');
+		i_disable('#C4P414_2');
+		i_disable('#C4P414_3');
+		i_disable('#C4P414_4');
+		i_disable('#C4P414_5');
+	}else{
+		i_enable('#C4P414_1');
+		i_enable('#C4P414_2');
+		i_enable('#C4P414_3');
+		i_enable('#C4P414_4');
+		i_enable('#C4P414_5');
+	}
+
+});
+
+$(document).on("change",'.cap4b_res',function() {
+		var pre = $(this).attr('id');
+		var nro;
+		nro = pre.substring(7,8);	
+
+	if($(this).val() == 2){
+		 	i_disable('#C4P415A_' + nro);
+		 	i_disable('#C4P415B_' + nro);
+		 	i_disable('#C4P415C_' + nro);
+	}else{
+		 	i_enable('#C4P415A_' + nro);
+		 	i_enable('#C4P415B_' + nro);
+		 	i_enable('#C4P415C_' + nro);		 	
+	}
+
+});
 
 if(<?php echo $CAP04B->num_rows() ?> == 1){
 
 	$.each( <?php echo json_encode($CAP04B->row()); ?>, function(fila, valor) {
-	    if(fila == 'C4P412_4'){
+	    if(fila == 'C4P412_4' || fila == 'C4P415_1'  || fila == 'C4P415_2'  || fila == 'C4P415_3' || fila == 'C4P415_4' || fila == 'C4P415_5' || fila == 'C4P415_6' || fila == 'C4P415_7' || fila == 'C4P415_8' || fila == 'C4P415_9' || fila == 'C4P415_10' || fila == 'C4P415_11' || fila == 'C4P415_12' || fila == 'C4P415_13'){
 			$('#' + fila).val(valor);
 			$('#' + fila).trigger('change');		
 		}else{		
@@ -889,6 +923,7 @@ $("#cap4b_f").validate({
 		    	C4P412_4:{
 		    		range:[0,1],
 		    		required:true,
+		    		valninguno:['C4P412_1','C4P412_2','C4P412_3'],
 		    	},	
 
 		    	C4P413:{

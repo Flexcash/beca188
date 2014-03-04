@@ -794,35 +794,35 @@ $C3P338_1 = array(
 	'name'	=> 'C3P338_1',
 	'id'	=> 'C3P338_1',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res38',
 );
 
 $C3P338_2 = array(
 	'name'	=> 'C3P338_2',
 	'id'	=> 'C3P338_2',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res38',
 );
 
 $C3P338_3 = array(
 	'name'	=> 'C3P338_3',
 	'id'	=> 'C3P338_3',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res38',
 );
 
 $C3P338_4 = array(
 	'name'	=> 'C3P338_4',
 	'id'	=> 'C3P338_4',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res38',
 );
 
 $C3P338_5 = array(
 	'name'	=> 'C3P338_5',
 	'id'	=> 'C3P338_5',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res38',
 );
 
 $C3P338_OBS = array(
@@ -871,49 +871,49 @@ $C3P340_1 = array(
 	'name'	=> 'C3P340_1',
 	'id'	=> 'C3P340_1',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res40',
 );
 
 $C3P340_2 = array(
 	'name'	=> 'C3P340_2',
 	'id'	=> 'C3P340_2',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res40',
 );
 
 $C3P340_3 = array(
 	'name'	=> 'C3P340_3',
 	'id'	=> 'C3P340_3',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res40',
 );
 
 $C3P340_4 = array(
 	'name'	=> 'C3P340_4',
 	'id'	=> 'C3P340_4',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res40',
 );
 
 $C3P340_5 = array(
 	'name'	=> 'C3P340_5',
 	'id'	=> 'C3P340_5',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res40',
 );
 
 $C3P340_6 = array(
 	'name'	=> 'C3P340_6',
 	'id'	=> 'C3P340_6',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res40',
 );
 
 $C3P340_7 = array(
 	'name'	=> 'C3P340_7',
 	'id'	=> 'C3P340_7',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res40',
 );
 
 $C3P341_1 = array(
@@ -969,35 +969,35 @@ $C3P342_1 = array(
 	'name'	=> 'C3P342_1',
 	'id'	=> 'C3P342_1',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res42',
 );
 
 $C3P342_2 = array(
 	'name'	=> 'C3P342_2',
 	'id'	=> 'C3P342_2',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res42',
 );
 
 $C3P342_3 = array(
 	'name'	=> 'C3P342_3',
 	'id'	=> 'C3P342_3',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res42',
 );
 
 $C3P342_4 = array(
 	'name'	=> 'C3P342_4',
 	'id'	=> 'C3P342_4',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res42',
 );
 
 $C3P342_5 = array(
 	'name'	=> 'C3P342_5',
 	'id'	=> 'C3P342_5',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res42',
 );
 
 $C3P342_OBS = array(
@@ -1046,49 +1046,49 @@ $C3P344_1 = array(
 	'name'	=> 'C3P344_1',
 	'id'	=> 'C3P344_1',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res44',
 );
 
 $C3P344_2 = array(
 	'name'	=> 'C3P344_2',
 	'id'	=> 'C3P344_2',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res44',
 );
 
 $C3P344_3 = array(
 	'name'	=> 'C3P344_3',
 	'id'	=> 'C3P344_3',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res44',
 );
 
 $C3P344_4 = array(
 	'name'	=> 'C3P344_4',
 	'id'	=> 'C3P344_4',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res44',
 );
 
 $C3P344_5 = array(
 	'name'	=> 'C3P344_5',
 	'id'	=> 'C3P344_5',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res44',
 );
 
 $C3P344_6 = array(
 	'name'	=> 'C3P344_6',
 	'id'	=> 'C3P344_6',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res44',
 );
 
 $C3P344_7 = array(
 	'name'	=> 'C3P344_7',
 	'id'	=> 'C3P344_7',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res44',
 );
 
 $C3P345_1 = array(
@@ -2146,6 +2146,7 @@ echo '
 			<div class="form-group">
 					<label for="">335. Durante el último ciclo cursado completo. Cuántas sesiones de tutorias individuales o grupales has tenido?</label>
 					<p>Consignar número de tutorías</p>
+					<p>(1)Individual / (2)Grupal / (3)Ambos</p>
 					<div class="row">
 							<div class="col-md-6">	
 								<p> </p>
@@ -2857,14 +2858,1153 @@ echo form_close();
 
 $(function(){
 
+$('#C3P301').change(function(event) {
+	if($(this).val() == 2){
+		i_disable('#C3P302');
+		i_disable('#C3P303');
+		i_disable('#C3P303A');
+		i_disable('#C3P304_CCDD');
+		i_disable('#C3P304_CCPP');
+		i_disable('#C3P304_CCDI');
+		i_disable('#C3P305');
+		i_disable('#C3P306_1');
+		i_disable('#C3P306_2');
+		i_disable('#C3P306_3');
+		i_disable('#C3P306_4');
+		i_disable('#C3P307_C1');
+		i_disable('#C3P307_C1C');
+		i_disable('#C3P307_C2');
+		i_disable('#C3P307_C2C');
+		i_disable('#C3P307_C3');
+		i_disable('#C3P307_C3C');
+		i_disable('#C3P307_C4');
+		i_disable('#C3P307_C4C');
+	}else{
+		i_enable('#C3P302');
+		i_enable('#C3P303');
+		i_enable('#C3P303A');
+		i_enable('#C3P304_CCDD');
+		i_enable('#C3P304_CCPP');
+		i_enable('#C3P304_CCDI');
+		i_enable('#C3P305');
+		i_enable('#C3P306_1');
+		i_enable('#C3P306_2');
+		i_enable('#C3P306_3');
+		i_enable('#C3P306_4');
+		i_enable('#C3P307_C1');
+		i_enable('#C3P307_C1C');
+		i_enable('#C3P307_C2');
+		i_enable('#C3P307_C2C');
+		i_enable('#C3P307_C3');
+		i_enable('#C3P307_C3C');
+		i_enable('#C3P307_C4');
+		i_enable('#C3P307_C4C');
+	}
+});
+
+
+
+$('#C3P308').change(function(event) {
+	if($(this).val() == 2){
+		i_disable('#C3P309_1');
+		i_disable('#C3P309_2');
+		i_disable('#C3P309_3');
+		i_disable('#C3P309_4');
+		i_disable('#C3P309_5');
+		i_disable('#C3P309_6');
+		i_disable('#C3P309_7');
+		i_disable('#C3P309_8');
+		i_disable('#C3P309_9');
+		i_disable('#C3P309_9OBS');
+		i_disable('#C3P310');
+		$('#C3P310').trigger('change');
+		i_disable('#C3P311_ANIO');
+		i_disable('#C3P311_MES');
+		i_disable('#C3P312');
+		i_disable('#C3P313');
+		i_disable('#C3P313A');
+		i_disable('#C3P314_CCDD');
+		i_disable('#C3P314_CCPP');
+		i_disable('#C3P314_CCDI');
+		i_disable('#C3P315');
+		i_disable('#C3P316_A');
+		i_disable('#C3P316_B');
+		i_disable('#C3P317_CI');
+		i_disable('#C3P317_CU');
+		$('#C3P317_CU').trigger('change');
+		i_disable('#C3P317_NCI');
+		$('#C3P317_NCI').trigger('change');
+	}else{
+		i_enable('#C3P309_1');
+		i_enable('#C3P309_2');
+		i_enable('#C3P309_3');
+		i_enable('#C3P309_4');
+		i_enable('#C3P309_5');
+		i_enable('#C3P309_6');
+		i_enable('#C3P309_7');
+		i_enable('#C3P309_8');
+		i_enable('#C3P309_9');
+		i_enable('#C3P309_9OBS');
+		i_enable('#C3P310');
+		$('#C3P310').trigger('change');
+		i_enable('#C3P311_ANIO');
+		i_enable('#C3P311_MES');
+		i_enable('#C3P312');
+		i_enable('#C3P313');
+		i_enable('#C3P313A');
+		i_enable('#C3P314_CCDD');
+		i_enable('#C3P314_CCPP');
+		i_enable('#C3P314_CCDI');
+		i_enable('#C3P315');
+		i_enable('#C3P316_A');
+		i_enable('#C3P316_B');
+		i_enable('#C3P317_CI');
+		i_enable('#C3P317_CU');
+		$('#C3P317_CU').trigger('change');
+		i_enable('#C3P317_NCI');
+		$('#C3P317_NCI').trigger('change');
+	}
+});
+
+$('#C3P310').change(function(event) {
+	if($(this).val() == 2){
+		i_disable('#C3P311_ANIO');
+		i_disable('#C3P311_MES');
+	}else{
+		i_enable('#C3P311_ANIO');
+		i_enable('#C3P311_MES');
+	}
+});
+
+$('#C3P317_CU').change(function(event) {
+	if(parseInt($('#C3P317_CI').val()) != 0 && parseInt($('#C3P317_CU').val()) != 0){
+		i_disable('#C3P317_NCI');
+		$('#C3P317_NCI').trigger('change');	
+		i_disable('#C3P318_1');
+		i_disable('#C3P318_2');
+		i_disable('#C3P318_3');
+		i_disable('#C3P318_4');
+		i_disable('#C3P318_5');
+		i_disable('#C3P318_6');
+		i_disable('#C3P318_7');
+		i_disable('#C3P318_8');
+		i_disable('#C3P318_8OBS');
+		i_disable('#C3P319');
+		i_disable('#C3P320_ANIO');
+		i_disable('#C3P320_MES');
+	}else{
+		i_enable('#C3P317_NCI');
+		$('#C3P317_NCI').trigger('change');	
+		i_enable('#C3P311_ANIO');
+		i_enable('#C3P318_1');
+		i_enable('#C3P318_2');
+		i_enable('#C3P318_3');
+		i_enable('#C3P318_4');
+		i_enable('#C3P318_5');
+		i_enable('#C3P318_6');
+		i_enable('#C3P318_7');
+		i_enable('#C3P318_8');
+		i_enable('#C3P318_8OBS');
+		i_enable('#C3P319');
+		i_enable('#C3P320_ANIO');
+		i_enable('#C3P320_MES');
+	}
+});
+
+$('#C3P317_NCI').change(function(event) {
+	// if(!$("#C3P317_NCI").is(':disabled')){
+
+	if(parseInt($('#C3P317_NCI').val()) == 1){
+		i_disable('#C3P318_1');
+		i_disable('#C3P318_2');
+		i_disable('#C3P318_3');
+		i_disable('#C3P318_4');
+		i_disable('#C3P318_5');
+		i_disable('#C3P318_6');
+		i_disable('#C3P318_7');
+		i_disable('#C3P318_8');
+		i_disable('#C3P318_8OBS');
+		i_disable('#C3P319');
+		i_disable('#C3P320_ANIO');
+		i_disable('#C3P320_MES');
+		i_disable('#C3P321_1');
+		i_disable('#C3P321A_1');
+		i_disable('#C3P321_2');
+		i_disable('#C3P321A_2');
+		i_disable('#C3P321_3');
+		i_disable('#C3P321A_3');
+		i_disable('#C3P321_4');
+		i_disable('#C3P321A_4');
+		i_disable('#C3P321_5');
+		i_disable('#C3P321A_5');
+		i_disable('#C3P321_6');
+		i_disable('#C3P321A_6');
+		i_disable('#C3P321_7');
+		i_disable('#C3P321A_7');
+		i_disable('#C3P321_7OBS');
+		i_disable('#C3P322');
+		i_disable('#C3P322_NCU');
+		i_disable('#C3P323_NSA');
+		i_disable('#C3P323');
+		i_disable('#C3P323_NSA');
+		i_disable('#C3P324');
+		i_disable('#C3P324_NSA');
+		i_disable('#C3P325');
+		i_disable('#C3P326');
+		i_disable('#C3P327');
+		i_disable('#C3P328');
+		i_disable('#C3P329');
+		i_disable('#C3P329_OBS');
+		i_disable('#C3P330');
+		i_disable('#C3P330_NSA');
+		i_disable('#C3P331');
+		i_disable('#C3P331_NSA');
+		i_disable('#C3P332');
+		i_disable('#C3P332_NSA');
+		i_disable('#C3P333');
+		i_disable('#C3P334');
+		i_disable('#C3P334_OBS');
+		i_disable('#C3P335');
+		i_disable('#C3P335_1');
+		i_disable('#C3P336_1');
+		i_disable('#C3P336_2');
+		i_disable('#C3P336_3');
+		i_disable('#C3P336_3OBS');
+		i_disable('#C3P336_4');
+		i_disable('#C3P337');
+		i_disable('#C3P337_OBS');
+		i_disable('#C3P338_1');
+		i_disable('#C3P339_1');
+		i_disable('#C3P338_2');
+		i_disable('#C3P339_2');
+		i_disable('#C3P338_3');
+		i_disable('#C3P339_3');
+		i_disable('#C3P338_4');
+		i_disable('#C3P339_4');
+		i_disable('#C3P338_5');
+		i_disable('#C3P339_5');
+		i_disable('#C3P338_OBS');
+		i_disable('#C3P340_1');
+		i_disable('#C3P341_1');
+		i_disable('#C3P340_2');
+		i_disable('#C3P341_2');
+		i_disable('#C3P340_3');
+		i_disable('#C3P341_3');
+		i_disable('#C3P340_4');
+		i_disable('#C3P341_4');
+		i_disable('#C3P340_5');
+		i_disable('#C3P341_5');
+		i_disable('#C3P340_6');
+		i_disable('#C3P341_6');
+		i_disable('#C3P340_7');
+		i_disable('#C3P341_7');
+
+		i_disable('#C3P342_1');
+		i_disable('#C3P343_1');
+		i_disable('#C3P342_2');
+		i_disable('#C3P343_2');
+		i_disable('#C3P342_3');
+		i_disable('#C3P343_3');
+		i_disable('#C3P342_4');
+		i_disable('#C3P343_4');
+		i_disable('#C3P342_5');
+		i_disable('#C3P343_5');
+		i_disable('#C3P342_OBS');
+
+		i_disable('#C3P344_1');
+		i_disable('#C3P345_1');
+		i_disable('#C3P344_2');
+		i_disable('#C3P345_2');
+		i_disable('#C3P344_3');
+		i_disable('#C3P345_3');
+		i_disable('#C3P344_4');
+		i_disable('#C3P345_4');
+		i_disable('#C3P344_5');
+		i_disable('#C3P345_5');
+		i_disable('#C3P344_6');
+		i_disable('#C3P345_6');
+		i_disable('#C3P344_7');
+		i_disable('#C3P345_7');		
+		i_disable('#C3P346_1');
+		i_disable('#C3P346_2');
+		i_disable('#C3P347_1');
+		i_disable('#C3P347_2');
+		i_disable('#C3P347_3');
+		i_disable('#C3P347_4');
+		i_disable('#C3P347_5');
+		i_disable('#C3P347_6');
+		i_disable('#C3P347_7');
+		i_disable('#C3P347_8');
+		i_disable('#C3P347_OBS');
+		i_disable('#C3P348');
+		i_disable('#C3P349');
+		i_disable('#C3P349_OBS');
+		i_disable('#C3P350');
+		i_disable('#C3P351_1A');
+		i_disable('#C3P351_1B');
+		i_disable('#C3P351_1C');
+		i_disable('#C3P351_2A');
+		i_disable('#C3P351_2B');
+		i_disable('#C3P351_2C');
+		i_disable('#C3P351_3A');
+		i_disable('#C3P351_3B');
+		i_disable('#C3P351_3C');
+		i_disable('#C3P351_4A');
+		i_disable('#C3P351_4B');
+		i_disable('#C3P351_4C');
+		i_disable('#C3P352');
+		i_disable('#C3P353');
+		i_disable('#C3P354');
+		i_disable('#C3P355');
+		i_disable('#C3P355_OBS');
+		i_disable('#C3P356');
+		i_disable('#C3P357');
+		i_disable('#C3P358');
+		i_disable('#C3P359');
+		i_disable('#C3P360_1');
+		i_disable('#C3P360_2');
+		i_disable('#C3P360_3');
+		i_disable('#C3P360_4');
+		i_disable('#C3P360_5');
+		i_disable('#C3P360_6');
+		i_disable('#C3P360_7');
+		i_disable('#C3P360_8');
+		i_disable('#C3P360_OBS');
+	}else{
+		i_enable('#C3P318_1');
+		i_enable('#C3P318_2');
+		i_enable('#C3P318_3');
+		i_enable('#C3P318_4');
+		i_enable('#C3P318_5');
+		i_enable('#C3P318_6');
+		i_enable('#C3P318_7');
+		i_enable('#C3P318_8');
+		i_enable('#C3P318_8OBS');
+		i_enable('#C3P319');
+		i_enable('#C3P320_ANIO');
+		i_enable('#C3P320_MES');
+		i_enable('#C3P321_1');
+		i_enable('#C3P321A_1');
+		i_enable('#C3P321_2');
+		i_enable('#C3P321A_2');
+		i_enable('#C3P321_3');
+		i_enable('#C3P321A_3');
+		i_enable('#C3P321_4');
+		i_enable('#C3P321A_4');
+		i_enable('#C3P321_5');
+		i_enable('#C3P321A_5');
+		i_enable('#C3P321_6');
+		i_enable('#C3P321A_6');
+		i_enable('#C3P321_7');
+		i_enable('#C3P321A_7');
+		i_enable('#C3P321_7OBS');
+		i_enable('#C3P322');
+		i_enable('#C3P322_NCU');
+		i_enable('#C3P323_NSA');
+		i_enable('#C3P323');
+		i_enable('#C3P323_NSA');
+		i_enable('#C3P324');
+		i_enable('#C3P324_NSA');
+		i_enable('#C3P325');
+		i_enable('#C3P326');
+		i_enable('#C3P327');
+		i_enable('#C3P328');
+		i_enable('#C3P329');
+		i_enable('#C3P329_OBS');
+		i_enable('#C3P330');
+		i_enable('#C3P330_NSA');
+		i_enable('#C3P331');
+		i_enable('#C3P331_NSA');
+		i_enable('#C3P332');
+		i_enable('#C3P332_NSA');
+		i_enable('#C3P333');
+		i_enable('#C3P334');
+		i_enable('#C3P334_OBS');
+		i_enable('#C3P335');
+		i_enable('#C3P335_1');
+		i_enable('#C3P336_1');
+		i_enable('#C3P336_2');
+		i_enable('#C3P336_3');
+		i_enable('#C3P336_3OBS');
+		i_enable('#C3P336_4');
+		i_enable('#C3P337');
+		i_enable('#C3P337_OBS');
+		i_enable('#C3P338_1');
+		i_enable('#C3P339_1');
+		i_enable('#C3P338_2');
+		i_enable('#C3P339_2');
+		i_enable('#C3P338_3');
+		i_enable('#C3P339_3');
+		i_enable('#C3P338_4');
+		i_enable('#C3P339_4');
+		i_enable('#C3P338_5');
+		i_enable('#C3P339_5');
+		i_enable('#C3P338_OBS');
+		i_enable('#C3P340_1');
+		i_enable('#C3P341_1');
+		i_enable('#C3P340_2');
+		i_enable('#C3P341_2');
+		i_enable('#C3P340_3');
+		i_enable('#C3P341_3');
+		i_enable('#C3P340_4');
+		i_enable('#C3P341_4');
+		i_enable('#C3P340_5');
+		i_enable('#C3P341_5');
+		i_enable('#C3P340_6');
+		i_enable('#C3P341_6');
+		i_enable('#C3P340_7');
+		i_enable('#C3P341_7');
+		i_enable('#C3P340_7');
+
+		i_enable('#C3P342_1');
+		i_enable('#C3P343_1');
+		i_enable('#C3P342_2');
+		i_enable('#C3P343_2');
+		i_enable('#C3P342_3');
+		i_enable('#C3P343_3');
+		i_enable('#C3P342_4');
+		i_enable('#C3P343_4');
+		i_enable('#C3P342_5');
+		i_enable('#C3P343_5');
+		i_enable('#C3P342_OBS');
+
+
+		i_enable('#C3P344_1');
+		i_enable('#C3P345_1');
+		i_enable('#C3P344_2');
+		i_enable('#C3P345_2');
+		i_enable('#C3P344_3');
+		i_enable('#C3P345_3');
+		i_enable('#C3P344_4');
+		i_enable('#C3P345_4');
+		i_enable('#C3P344_5');
+		i_enable('#C3P345_5');
+		i_enable('#C3P344_6');
+		i_enable('#C3P345_6');
+		i_enable('#C3P344_7');
+		i_enable('#C3P345_7');		
+		i_enable('#C3P346_1');
+		i_enable('#C3P346_2');
+		i_enable('#C3P347_1');
+		i_enable('#C3P347_2');
+		i_enable('#C3P347_3');
+		i_enable('#C3P347_4');
+		i_enable('#C3P347_5');
+		i_enable('#C3P347_6');
+		i_enable('#C3P347_7');
+		i_enable('#C3P347_8');
+		i_enable('#C3P347_OBS');
+		i_enable('#C3P348');
+		i_enable('#C3P349');
+		i_enable('#C3P349_OBS');
+		i_enable('#C3P350');
+		i_enable('#C3P351_1A');
+		i_enable('#C3P351_1B');
+		i_enable('#C3P351_1C');
+		i_enable('#C3P351_2A');
+		i_enable('#C3P351_2B');
+		i_enable('#C3P351_2C');
+		i_enable('#C3P351_3A');
+		i_enable('#C3P351_3B');
+		i_enable('#C3P351_3C');
+		i_enable('#C3P351_4A');
+		i_enable('#C3P351_4B');
+		i_enable('#C3P351_4C');
+		i_enable('#C3P352');
+		i_enable('#C3P353');
+		i_enable('#C3P354');
+		i_enable('#C3P355');
+		i_enable('#C3P355_OBS');
+		i_enable('#C3P356');
+		i_enable('#C3P357');
+		i_enable('#C3P358');
+		i_enable('#C3P359');
+		i_enable('#C3P360_1');
+		i_enable('#C3P360_2');
+		i_enable('#C3P360_3');
+		i_enable('#C3P360_4');
+		i_enable('#C3P360_5');
+		i_enable('#C3P360_6');
+		i_enable('#C3P360_7');
+		i_enable('#C3P360_8');
+		i_enable('#C3P360_OBS');
+	}
+// }
+});
+
+
+$('#C3P319').change(function(event) {
+	if(!$("#C3P319").is(':disabled')){
+	if(parseInt($('#C3P319').val()) == 2){
+		i_disable('#C3P320_ANIO');
+		i_disable('#C3P320_MES');
+		i_disable('#C3P321_1');
+		i_disable('#C3P321A_1');
+		i_disable('#C3P321_2');
+		i_disable('#C3P321A_2');
+		i_disable('#C3P321_3');
+		i_disable('#C3P321A_3');
+		i_disable('#C3P321_4');
+		i_disable('#C3P321A_4');
+		i_disable('#C3P321_5');
+		i_disable('#C3P321A_5');
+		i_disable('#C3P321_6');
+		i_disable('#C3P321A_6');
+		i_disable('#C3P321_7');
+		i_disable('#C3P321A_7');
+		i_disable('#C3P321_7OBS');
+		i_disable('#C3P322');
+		i_disable('#C3P322_NCU');
+		i_disable('#C3P323_NSA');
+		i_disable('#C3P323');
+		i_disable('#C3P323_NSA');
+		i_disable('#C3P324');
+		i_disable('#C3P324_NSA');
+		i_disable('#C3P325');
+		i_disable('#C3P326');
+		i_disable('#C3P327');
+		i_disable('#C3P328');
+		i_disable('#C3P329');
+		i_disable('#C3P329_OBS');
+		i_disable('#C3P330');
+		i_disable('#C3P330_NSA');
+		i_disable('#C3P331');
+		i_disable('#C3P331_NSA');
+		i_disable('#C3P332');
+		i_disable('#C3P332_NSA');
+		i_disable('#C3P333');
+		i_disable('#C3P334');
+		i_disable('#C3P334_OBS');
+		i_disable('#C3P335');
+		i_disable('#C3P335_1');
+		i_disable('#C3P336_1');
+		i_disable('#C3P336_2');
+		i_disable('#C3P336_3');
+		i_disable('#C3P336_3OBS');
+		i_disable('#C3P336_4');
+		i_disable('#C3P337');
+		i_disable('#C3P337_OBS');
+		i_disable('#C3P338_1');
+		i_disable('#C3P339_1');
+		i_disable('#C3P338_2');
+		i_disable('#C3P339_2');
+		i_disable('#C3P338_3');
+		i_disable('#C3P339_3');
+		i_disable('#C3P338_4');
+		i_disable('#C3P339_4');
+		i_disable('#C3P338_5');
+		i_disable('#C3P339_5');
+		i_disable('#C3P338_OBS');
+		i_disable('#C3P340_1');
+		i_disable('#C3P341_1');
+		i_disable('#C3P340_2');
+		i_disable('#C3P341_2');
+		i_disable('#C3P340_3');
+		i_disable('#C3P341_3');
+		i_disable('#C3P340_4');
+		i_disable('#C3P341_4');
+		i_disable('#C3P340_5');
+		i_disable('#C3P341_5');
+		i_disable('#C3P340_6');
+		i_disable('#C3P341_6');
+		i_disable('#C3P340_7');
+		i_disable('#C3P341_7');
+
+		i_disable('#C3P342_1');
+		i_disable('#C3P343_1');
+		i_disable('#C3P342_2');
+		i_disable('#C3P343_2');
+		i_disable('#C3P342_3');
+		i_disable('#C3P343_3');
+		i_disable('#C3P342_4');
+		i_disable('#C3P343_4');
+		i_disable('#C3P342_5');
+		i_disable('#C3P343_5');
+		i_disable('#C3P342_OBS');
+
+		i_disable('#C3P344_1');
+		i_disable('#C3P345_1');
+		i_disable('#C3P344_2');
+		i_disable('#C3P345_2');
+		i_disable('#C3P344_3');
+		i_disable('#C3P345_3');
+		i_disable('#C3P344_4');
+		i_disable('#C3P345_4');
+		i_disable('#C3P344_5');
+		i_disable('#C3P345_5');
+		i_disable('#C3P344_6');
+		i_disable('#C3P345_6');
+		i_disable('#C3P344_7');
+		i_disable('#C3P345_7');		
+		i_disable('#C3P346_1');
+		i_disable('#C3P346_2');
+		i_disable('#C3P347_1');
+		i_disable('#C3P347_2');
+		i_disable('#C3P347_3');
+		i_disable('#C3P347_4');
+		i_disable('#C3P347_5');
+		i_disable('#C3P347_6');
+		i_disable('#C3P347_7');
+		i_disable('#C3P347_8');
+		i_disable('#C3P347_OBS');
+		i_disable('#C3P348');
+		i_disable('#C3P349');
+		i_disable('#C3P349_OBS');
+		i_disable('#C3P350');
+		i_disable('#C3P351_1A');
+		i_disable('#C3P351_1B');
+		i_disable('#C3P351_1C');
+		i_disable('#C3P351_2A');
+		i_disable('#C3P351_2B');
+		i_disable('#C3P351_2C');
+		i_disable('#C3P351_3A');
+		i_disable('#C3P351_3B');
+		i_disable('#C3P351_3C');
+		i_disable('#C3P351_4A');
+		i_disable('#C3P351_4B');
+		i_disable('#C3P351_4C');
+		i_disable('#C3P352');
+		i_disable('#C3P353');
+		i_disable('#C3P354');
+		i_disable('#C3P355');
+		i_disable('#C3P355_OBS');
+		i_disable('#C3P356');
+		i_disable('#C3P357');
+		i_disable('#C3P358');
+		i_disable('#C3P359');
+		i_disable('#C3P360_1');
+		i_disable('#C3P360_2');
+		i_disable('#C3P360_3');
+		i_disable('#C3P360_4');
+		i_disable('#C3P360_5');
+		i_disable('#C3P360_6');
+		i_disable('#C3P360_7');
+		i_disable('#C3P360_8');
+		i_disable('#C3P360_OBS');
+		i_disable('#C3P361_1');
+		i_disable('#C3P361_2');
+		i_disable('#C3P361_3');
+		i_disable('#C3P361_4');
+		i_disable('#C3P361_5');
+		i_disable('#C3P361_5OBS');
+		i_disable('#C3P362_1');
+		i_disable('#C3P362_2');
+		i_disable('#C3P362_3');
+		i_disable('#C3P362_4');
+		i_disable('#C3P362_5');
+		i_disable('#C3P362_6');
+		i_disable('#C3P362_7');
+		i_disable('#C3P362_8');
+		i_disable('#C3P362_OBS');
+		i_disable('#C3P362_TOTAL');
+	}else{
+		i_enable('#C3P320_ANIO');
+		i_enable('#C3P320_MES');
+		i_enable('#C3P321_1');
+		i_enable('#C3P321A_1');
+		i_enable('#C3P321_2');
+		i_enable('#C3P321A_2');
+		i_enable('#C3P321_3');
+		i_enable('#C3P321A_3');
+		i_enable('#C3P321_4');
+		i_enable('#C3P321A_4');
+		i_enable('#C3P321_5');
+		i_enable('#C3P321A_5');
+		i_enable('#C3P321_6');
+		i_enable('#C3P321A_6');
+		i_enable('#C3P321_7');
+		i_enable('#C3P321A_7');
+		i_enable('#C3P321_7OBS');
+		i_enable('#C3P322');
+		i_enable('#C3P322_NCU');
+		i_enable('#C3P323_NSA');
+		i_enable('#C3P323');
+		i_enable('#C3P323_NSA');
+		i_enable('#C3P324');
+		i_enable('#C3P324_NSA');
+		i_enable('#C3P325');
+		i_enable('#C3P326');
+		i_enable('#C3P327');
+		i_enable('#C3P328');
+		i_enable('#C3P329');
+		i_enable('#C3P329_OBS');
+		i_enable('#C3P330');
+		i_enable('#C3P330_NSA');
+		i_enable('#C3P331');
+		i_enable('#C3P331_NSA');
+		i_enable('#C3P332');
+		i_enable('#C3P332_NSA');
+		i_enable('#C3P333');
+		i_enable('#C3P334');
+		i_enable('#C3P334_OBS');
+		i_enable('#C3P335');
+		i_enable('#C3P335_1');
+		i_enable('#C3P336_1');
+		i_enable('#C3P336_2');
+		i_enable('#C3P336_3');
+		i_enable('#C3P336_3OBS');
+		i_enable('#C3P336_4');
+		i_enable('#C3P337');
+		i_enable('#C3P337_OBS');
+		i_enable('#C3P338_1');
+		i_enable('#C3P339_1');
+		i_enable('#C3P338_2');
+		i_enable('#C3P339_2');
+		i_enable('#C3P338_3');
+		i_enable('#C3P339_3');
+		i_enable('#C3P338_4');
+		i_enable('#C3P339_4');
+		i_enable('#C3P338_5');
+		i_enable('#C3P339_5');
+		i_enable('#C3P338_OBS');
+		i_enable('#C3P340_1');
+		i_enable('#C3P341_1');
+		i_enable('#C3P340_2');
+		i_enable('#C3P341_2');
+		i_enable('#C3P340_3');
+		i_enable('#C3P341_3');
+		i_enable('#C3P340_4');
+		i_enable('#C3P341_4');
+		i_enable('#C3P340_5');
+		i_enable('#C3P341_5');
+		i_enable('#C3P340_6');
+		i_enable('#C3P341_6');
+		i_enable('#C3P340_7');
+		i_enable('#C3P341_7');
+		i_enable('#C3P340_7');
+
+		i_enable('#C3P342_1');
+		i_enable('#C3P343_1');
+		i_enable('#C3P342_2');
+		i_enable('#C3P343_2');
+		i_enable('#C3P342_3');
+		i_enable('#C3P343_3');
+		i_enable('#C3P342_4');
+		i_enable('#C3P343_4');
+		i_enable('#C3P342_5');
+		i_enable('#C3P343_5');
+		i_enable('#C3P342_OBS');
+
+
+		i_enable('#C3P344_1');
+		i_enable('#C3P345_1');
+		i_enable('#C3P344_2');
+		i_enable('#C3P345_2');
+		i_enable('#C3P344_3');
+		i_enable('#C3P345_3');
+		i_enable('#C3P344_4');
+		i_enable('#C3P345_4');
+		i_enable('#C3P344_5');
+		i_enable('#C3P345_5');
+		i_enable('#C3P344_6');
+		i_enable('#C3P345_6');
+		i_enable('#C3P344_7');
+		i_enable('#C3P345_7');		
+		i_enable('#C3P346_1');
+		i_enable('#C3P346_2');
+		i_enable('#C3P347_1');
+		i_enable('#C3P347_2');
+		i_enable('#C3P347_3');
+		i_enable('#C3P347_4');
+		i_enable('#C3P347_5');
+		i_enable('#C3P347_6');
+		i_enable('#C3P347_7');
+		i_enable('#C3P347_8');
+		i_enable('#C3P347_OBS');
+		i_enable('#C3P348');
+		i_enable('#C3P349');
+		i_enable('#C3P349_OBS');
+		i_enable('#C3P350');
+		i_enable('#C3P351_1A');
+		i_enable('#C3P351_1B');
+		i_enable('#C3P351_1C');
+		i_enable('#C3P351_2A');
+		i_enable('#C3P351_2B');
+		i_enable('#C3P351_2C');
+		i_enable('#C3P351_3A');
+		i_enable('#C3P351_3B');
+		i_enable('#C3P351_3C');
+		i_enable('#C3P351_4A');
+		i_enable('#C3P351_4B');
+		i_enable('#C3P351_4C');
+		i_enable('#C3P352');
+		i_enable('#C3P353');
+		i_enable('#C3P354');
+		i_enable('#C3P355');
+		i_enable('#C3P355_OBS');
+		i_enable('#C3P356');
+		i_enable('#C3P357');
+		i_enable('#C3P358');
+		i_enable('#C3P359');
+		i_enable('#C3P360_1');
+		i_enable('#C3P360_2');
+		i_enable('#C3P360_3');
+		i_enable('#C3P360_4');
+		i_enable('#C3P360_5');
+		i_enable('#C3P360_6');
+		i_enable('#C3P360_7');
+		i_enable('#C3P360_8');
+		i_enable('#C3P360_OBS');
+		i_enable('#C3P361_1');
+		i_enable('#C3P361_2');
+		i_enable('#C3P361_3');
+		i_enable('#C3P361_4');
+		i_enable('#C3P361_5');
+		i_enable('#C3P361_5OBS');
+		i_enable('#C3P362_1');
+		i_enable('#C3P362_2');
+		i_enable('#C3P362_3');
+		i_enable('#C3P362_4');
+		i_enable('#C3P362_5');
+		i_enable('#C3P362_6');
+		i_enable('#C3P362_7');
+		i_enable('#C3P362_8');
+		i_enable('#C3P362_OBS');
+		i_enable('#C3P362_TOTAL');
+	}
+}
+});
+
+
+
+$('#C3P320_MES').change(function(event) {
+if(!$("#C3P320_MES").is(':disabled')){
+	if($('#C3P320_MES').val() != '' || $('#C3P320_ANIO').val() != ''){
+		i_disable('#C3P321_1');
+		i_disable('#C3P321A_1');
+		i_disable('#C3P321_2');
+		i_disable('#C3P321A_2');
+		i_disable('#C3P321_3');
+		i_disable('#C3P321A_3');
+		i_disable('#C3P321_4');
+		i_disable('#C3P321A_4');
+		i_disable('#C3P321_5');
+		i_disable('#C3P321A_5');
+		i_disable('#C3P321_6');
+		i_disable('#C3P321A_6');
+		i_disable('#C3P321_7');
+		i_disable('#C3P321A_7');
+		i_disable('#C3P321_7OBS');
+		i_disable('#C3P322');
+		i_disable('#C3P322_NCU');
+		i_disable('#C3P323_NSA');
+		i_disable('#C3P323');
+		i_disable('#C3P323_NSA');
+		i_disable('#C3P324');
+		i_disable('#C3P324_NSA');
+		i_disable('#C3P325');
+		i_disable('#C3P326');
+		i_disable('#C3P327');
+		i_disable('#C3P328');
+		i_disable('#C3P329');
+		i_disable('#C3P329_OBS');
+		i_disable('#C3P330');
+		i_disable('#C3P330_NSA');
+		i_disable('#C3P331');
+		i_disable('#C3P331_NSA');
+		i_disable('#C3P332');
+		i_disable('#C3P332_NSA');
+		i_disable('#C3P333');
+		i_disable('#C3P334');
+		i_disable('#C3P334_OBS');
+		i_disable('#C3P335');
+		i_disable('#C3P335_1');
+		i_disable('#C3P336_1');
+		i_disable('#C3P336_2');
+		i_disable('#C3P336_3');
+		i_disable('#C3P336_3OBS');
+		i_disable('#C3P336_4');
+		i_disable('#C3P337');
+		i_disable('#C3P337_OBS');
+		i_disable('#C3P338_1');
+		i_disable('#C3P339_1');
+		i_disable('#C3P338_2');
+		i_disable('#C3P339_2');
+		i_disable('#C3P338_3');
+		i_disable('#C3P339_3');
+		i_disable('#C3P338_4');
+		i_disable('#C3P339_4');
+		i_disable('#C3P338_5');
+		i_disable('#C3P339_5');
+		i_disable('#C3P338_OBS');
+		i_disable('#C3P340_1');
+		i_disable('#C3P341_1');
+		i_disable('#C3P340_2');
+		i_disable('#C3P341_2');
+		i_disable('#C3P340_3');
+		i_disable('#C3P341_3');
+		i_disable('#C3P340_4');
+		i_disable('#C3P341_4');
+		i_disable('#C3P340_5');
+		i_disable('#C3P341_5');
+		i_disable('#C3P340_6');
+		i_disable('#C3P341_6');
+		i_disable('#C3P340_7');
+		i_disable('#C3P341_7');
+
+		i_disable('#C3P342_1');
+		i_disable('#C3P343_1');
+		i_disable('#C3P342_2');
+		i_disable('#C3P343_2');
+		i_disable('#C3P342_3');
+		i_disable('#C3P343_3');
+		i_disable('#C3P342_4');
+		i_disable('#C3P343_4');
+		i_disable('#C3P342_5');
+		i_disable('#C3P343_5');
+		i_disable('#C3P342_OBS');
+
+		i_disable('#C3P344_1');
+		i_disable('#C3P345_1');
+		i_disable('#C3P344_2');
+		i_disable('#C3P345_2');
+		i_disable('#C3P344_3');
+		i_disable('#C3P345_3');
+		i_disable('#C3P344_4');
+		i_disable('#C3P345_4');
+		i_disable('#C3P344_5');
+		i_disable('#C3P345_5');
+		i_disable('#C3P344_6');
+		i_disable('#C3P345_6');
+		i_disable('#C3P344_7');
+		i_disable('#C3P345_7');		
+		i_disable('#C3P346_1');
+		i_disable('#C3P346_2');
+		i_disable('#C3P347_1');
+		i_disable('#C3P347_2');
+		i_disable('#C3P347_3');
+		i_disable('#C3P347_4');
+		i_disable('#C3P347_5');
+		i_disable('#C3P347_6');
+		i_disable('#C3P347_7');
+		i_disable('#C3P347_8');
+		i_disable('#C3P347_OBS');
+		i_disable('#C3P348');
+		i_disable('#C3P349');
+		i_disable('#C3P349_OBS');
+		i_disable('#C3P350');
+		i_disable('#C3P351_1A');
+		i_disable('#C3P351_1B');
+		i_disable('#C3P351_1C');
+		i_disable('#C3P351_2A');
+		i_disable('#C3P351_2B');
+		i_disable('#C3P351_2C');
+		i_disable('#C3P351_3A');
+		i_disable('#C3P351_3B');
+		i_disable('#C3P351_3C');
+		i_disable('#C3P351_4A');
+		i_disable('#C3P351_4B');
+		i_disable('#C3P351_4C');
+		i_disable('#C3P352');
+		i_disable('#C3P353');
+		i_disable('#C3P354');
+		i_disable('#C3P355');
+		i_disable('#C3P355_OBS');
+		i_disable('#C3P356');
+		i_disable('#C3P357');
+		i_disable('#C3P358');
+		i_disable('#C3P359');
+		i_disable('#C3P360_1');
+		i_disable('#C3P360_2');
+		i_disable('#C3P360_3');
+		i_disable('#C3P360_4');
+		i_disable('#C3P360_5');
+		i_disable('#C3P360_6');
+		i_disable('#C3P360_7');
+		i_disable('#C3P360_8');
+		i_disable('#C3P360_OBS');
+		i_disable('#C3P361_1');
+		i_disable('#C3P361_2');
+		i_disable('#C3P361_3');
+		i_disable('#C3P361_4');
+		i_disable('#C3P361_5');
+		i_disable('#C3P361_5OBS');
+		i_disable('#C3P362_1');
+		i_disable('#C3P362_2');
+		i_disable('#C3P362_3');
+		i_disable('#C3P362_4');
+		i_disable('#C3P362_5');
+		i_disable('#C3P362_6');
+		i_disable('#C3P362_7');
+		i_disable('#C3P362_8');
+		i_disable('#C3P362_OBS');
+		i_disable('#C3P362_TOTAL');
+	}else{
+		i_enable('#C3P321_1');
+		i_enable('#C3P321A_1');
+		i_enable('#C3P321_2');
+		i_enable('#C3P321A_2');
+		i_enable('#C3P321_3');
+		i_enable('#C3P321A_3');
+		i_enable('#C3P321_4');
+		i_enable('#C3P321A_4');
+		i_enable('#C3P321_5');
+		i_enable('#C3P321A_5');
+		i_enable('#C3P321_6');
+		i_enable('#C3P321A_6');
+		i_enable('#C3P321_7');
+		i_enable('#C3P321A_7');
+		i_enable('#C3P321_7OBS');
+		i_enable('#C3P322');
+		i_enable('#C3P322_NCU');
+		i_enable('#C3P323_NSA');
+		i_enable('#C3P323');
+		i_enable('#C3P323_NSA');
+		i_enable('#C3P324');
+		i_enable('#C3P324_NSA');
+		i_enable('#C3P325');
+		i_enable('#C3P326');
+		i_enable('#C3P327');
+		i_enable('#C3P328');
+		i_enable('#C3P329');
+		i_enable('#C3P329_OBS');
+		i_enable('#C3P330');
+		i_enable('#C3P330_NSA');
+		i_enable('#C3P331');
+		i_enable('#C3P331_NSA');
+		i_enable('#C3P332');
+		i_enable('#C3P332_NSA');
+		i_enable('#C3P333');
+		i_enable('#C3P334');
+		i_enable('#C3P334_OBS');
+		i_enable('#C3P335');
+		i_enable('#C3P335_1');
+		i_enable('#C3P336_1');
+		i_enable('#C3P336_2');
+		i_enable('#C3P336_3');
+		i_enable('#C3P336_3OBS');
+		i_enable('#C3P336_4');
+		i_enable('#C3P337');
+		i_enable('#C3P337_OBS');
+		i_enable('#C3P338_1');
+		i_enable('#C3P339_1');
+		i_enable('#C3P338_2');
+		i_enable('#C3P339_2');
+		i_enable('#C3P338_3');
+		i_enable('#C3P339_3');
+		i_enable('#C3P338_4');
+		i_enable('#C3P339_4');
+		i_enable('#C3P338_5');
+		i_enable('#C3P339_5');
+		i_enable('#C3P338_OBS');
+		i_enable('#C3P340_1');
+		i_enable('#C3P341_1');
+		i_enable('#C3P340_2');
+		i_enable('#C3P341_2');
+		i_enable('#C3P340_3');
+		i_enable('#C3P341_3');
+		i_enable('#C3P340_4');
+		i_enable('#C3P341_4');
+		i_enable('#C3P340_5');
+		i_enable('#C3P341_5');
+		i_enable('#C3P340_6');
+		i_enable('#C3P341_6');
+		i_enable('#C3P340_7');
+		i_enable('#C3P341_7');
+		i_enable('#C3P340_7');
+
+		i_enable('#C3P342_1');
+		i_enable('#C3P343_1');
+		i_enable('#C3P342_2');
+		i_enable('#C3P343_2');
+		i_enable('#C3P342_3');
+		i_enable('#C3P343_3');
+		i_enable('#C3P342_4');
+		i_enable('#C3P343_4');
+		i_enable('#C3P342_5');
+		i_enable('#C3P343_5');
+		i_enable('#C3P342_OBS');
+
+
+		i_enable('#C3P344_1');
+		i_enable('#C3P345_1');
+		i_enable('#C3P344_2');
+		i_enable('#C3P345_2');
+		i_enable('#C3P344_3');
+		i_enable('#C3P345_3');
+		i_enable('#C3P344_4');
+		i_enable('#C3P345_4');
+		i_enable('#C3P344_5');
+		i_enable('#C3P345_5');
+		i_enable('#C3P344_6');
+		i_enable('#C3P345_6');
+		i_enable('#C3P344_7');
+		i_enable('#C3P345_7');		
+		i_enable('#C3P346_1');
+		i_enable('#C3P346_2');
+		i_enable('#C3P347_1');
+		i_enable('#C3P347_2');
+		i_enable('#C3P347_3');
+		i_enable('#C3P347_4');
+		i_enable('#C3P347_5');
+		i_enable('#C3P347_6');
+		i_enable('#C3P347_7');
+		i_enable('#C3P347_8');
+		i_enable('#C3P347_OBS');
+		i_enable('#C3P348');
+		i_enable('#C3P349');
+		i_enable('#C3P349_OBS');
+		i_enable('#C3P350');
+		i_enable('#C3P351_1A');
+		i_enable('#C3P351_1B');
+		i_enable('#C3P351_1C');
+		i_enable('#C3P351_2A');
+		i_enable('#C3P351_2B');
+		i_enable('#C3P351_2C');
+		i_enable('#C3P351_3A');
+		i_enable('#C3P351_3B');
+		i_enable('#C3P351_3C');
+		i_enable('#C3P351_4A');
+		i_enable('#C3P351_4B');
+		i_enable('#C3P351_4C');
+		i_enable('#C3P352');
+		i_enable('#C3P353');
+		i_enable('#C3P354');
+		i_enable('#C3P355');
+		i_enable('#C3P355_OBS');
+		i_enable('#C3P356');
+		i_enable('#C3P357');
+		i_enable('#C3P358');
+		i_enable('#C3P359');
+		i_enable('#C3P360_1');
+		i_enable('#C3P360_2');
+		i_enable('#C3P360_3');
+		i_enable('#C3P360_4');
+		i_enable('#C3P360_5');
+		i_enable('#C3P360_6');
+		i_enable('#C3P360_7');
+		i_enable('#C3P360_8');
+		i_enable('#C3P360_OBS');
+		i_enable('#C3P361_1');
+		i_enable('#C3P361_2');
+		i_enable('#C3P361_3');
+		i_enable('#C3P361_4');
+		i_enable('#C3P361_5');
+		i_enable('#C3P361_5OBS');
+		i_enable('#C3P362_1');
+		i_enable('#C3P362_2');
+		i_enable('#C3P362_3');
+		i_enable('#C3P362_4');
+		i_enable('#C3P362_5');
+		i_enable('#C3P362_6');
+		i_enable('#C3P362_7');
+		i_enable('#C3P362_8');
+		i_enable('#C3P362_OBS');
+		i_enable('#C3P362_TOTAL');
+
+	}
+	}
+});
 
 $('#C3P307_C1').change(function(event) {
+
 	if($(this).val() == 1){
 		$('#C3P307_C1C').removeAttr('disabled');
 	}else{
 		$('#C3P307_C1C').val('');
 		$('#C3P307_C1C').attr('disabled','disabled');
 	}
+
 });
 $('#C3P307_C2').change(function(event) {
 	if($(this).val() == 1){
@@ -2934,77 +4074,156 @@ $(document).on("change",'.cap3_res',function() {
 });
 
 $('#C3P322').change(function(event) {
+if(!$("#C3P322").is(':disabled')){
+
 	if($(this).val() == '' || $(this).val() == 0){
 		$('#C3P322_NCU').removeAttr('disabled');
 	}else{
 		$('#C3P322_NCU').val('');
 		$('#C3P322_NCU').attr('disabled','disabled');
 	}
+}
 });
 
+$('#C3P322_NCU').change(function(event) {
+	if(!$("#C3P322_NCU").is(':disabled')){
+		if(parseInt($(this).val()) == 1){
+			i_disable('#C3P323');
+			i_disable('#C3P323_NSA');
+			i_disable('#C3P324');
+			i_disable('#C3P324_NSA');
+		}else{
+			i_enable('#C3P323');
+			i_enable('#C3P323_NSA');
+			i_enable('#C3P324');
+			i_enable('#C3P324_NSA');
+		}
+	}
+});
+
+
+
 $('#C3P323').change(function(event) {
+if(!$("#C3P323").is(':disabled')){
 	if($(this).val() == '' || $(this).val() == 0){
 		$('#C3P323_NSA').removeAttr('disabled');
 	}else{
 		$('#C3P323_NSA').val('');
 		$('#C3P323_NSA').attr('disabled','disabled');
 	}
+	}
 });
 
 $('#C3P324').change(function(event) {
+if(!$("#C3P324").is(':disabled')){
 	if($(this).val() == '' || $(this).val() == 0){
 		$('#C3P324_NSA').removeAttr('disabled');
 	}else{
 		$('#C3P324_NSA').val('');
 		$('#C3P324_NSA').attr('disabled','disabled');
 	}
+	}
 });
 
 
+$('#C3P328').change(function(event) {
+	if(!$("#C3P328").is(':disabled')){
+		if(parseInt($(this).val()) == 0){
+			i_disable('#C3P329');
+			i_disable('#C3P329_OBS');
+		}else{
+			i_enable('#C3P329');
+			i_enable('#C3P329_OBS');
+		}
+	}
+});
+
 $('#C3P329').change(function(event) {
+if(!$("#C3P329").is(':disabled')){
 	if($(this).val() == 10){
 		$('#C3P329_OBS').removeAttr('disabled');
 	}else{
 		$('#C3P329_OBS').val('');
 		$('#C3P329_OBS').attr('disabled','disabled');
 	}
+	}
 });
 
 
 $('#C3P330').change(function(event) {
+if(!$("#C3P330").is(':disabled')){
 	if($(this).val() == '' || $(this).val() == 0){
 		$('#C3P330_NSA').removeAttr('disabled');
 	}else{
 		$('#C3P330_NSA').val('');
 		$('#C3P330_NSA').attr('disabled','disabled');
 	}
+	}
 });
 
 $('#C3P331').change(function(event) {
+if(!$("#C3P331").is(':disabled')){
 	if($(this).val() == '' || $(this).val() == 0){
 		$('#C3P331_NSA').removeAttr('disabled');
 	}else{
 		$('#C3P331_NSA').val('');
 		$('#C3P331_NSA').attr('disabled','disabled');
 	}
+	}
 });
 
 
 $('#C3P332').change(function(event) {
+if(!$("#C3P332").is(':disabled')){
 	if($(this).val() == '' || $(this).val() == 0){
 		$('#C3P332_NSA').removeAttr('disabled');
 	}else{
 		$('#C3P332_NSA').val('');
 		$('#C3P332_NSA').attr('disabled','disabled');
 	}
+	}
 });
 
+
+$('#C3P333').change(function(event) {
+	if(!$("#C3P333").is(':disabled')){
+		if(parseInt($(this).val()) == 0){
+			i_disable('#C3P334');
+			i_disable('#C3P334_OBS');
+			i_disable('#C3P335');
+			i_disable('#C3P335_1');
+			i_disable('#C3P336_1');
+			i_disable('#C3P336_2');
+			i_disable('#C3P336_3');
+			i_disable('#C3P336_3OBS');
+			i_disable('#C3P336_4');
+			i_disable('#C3P337');
+			i_disable('#C3P337_OBS');
+		}else{
+			i_enable('#C3P334');
+			i_enable('#C3P334_OBS');
+			i_enable('#C3P335');
+			i_enable('#C3P335_1');
+			i_enable('#C3P336_1');
+			i_enable('#C3P336_2');
+			i_enable('#C3P336_3');
+			i_enable('#C3P336_3OBS');
+			i_enable('#C3P336_4');
+			i_enable('#C3P337');
+			i_enable('#C3P337_OBS');
+		}
+	}
+});
+
+
 $('#C3P334').change(function(event) {
+if(!$("#C3P334").is(':disabled')){
 	if($(this).val() == 6){
 		$('#C3P334_OBS').removeAttr('disabled');
 	}else{
 		$('#C3P334_OBS').val('');
 		$('#C3P334_OBS').attr('disabled','disabled');
+	}
 	}
 });
 
@@ -3027,6 +4246,98 @@ $('#C3P337').change(function(event) {
 	}
 });
 
+
+$(document).on("change",'.cap3_res38',function() {
+		var pre = $(this).attr('id');
+		var nro;
+		nro = pre.substring(7,8);	
+
+	if($(this).val() == 1){
+		 	$('#C3P339_' + nro).removeAttr('readonly');
+	}else{
+		 	$('#C3P339_' + nro).val('');
+		 	$('#C3P339_' + nro).attr('readonly','readonly');	
+	}
+
+});
+
+
+$('#C3P338_5').change(function(event) {
+	if($(this).val() == 1){
+		$('#C3P338_OBS').removeAttr('disabled');
+	}else{
+		$('#C3P338_OBS').val('');
+		$('#C3P338_OBS').attr('disabled','disabled');
+	}
+});
+
+
+
+$(document).on("change",'.cap3_res40',function() {
+		var pre = $(this).attr('id');
+		var nro;
+		nro = pre.substring(7,8);	
+
+	if($(this).val() == 1){
+		 	$('#C3P341_' + nro).removeAttr('readonly');
+	}else{
+		 	$('#C3P341_' + nro).val('');
+		 	$('#C3P341_' + nro).attr('readonly','readonly');	
+	}
+
+});
+
+
+$(document).on("change",'.cap3_res42',function() {
+		var pre = $(this).attr('id');
+		var nro;
+		nro = pre.substring(7,8);	
+
+	if($(this).val() == 1){
+		 	$('#C3P343_' + nro).removeAttr('readonly');
+	}else{
+		 	$('#C3P343_' + nro).val('');
+		 	$('#C3P343_' + nro).attr('readonly','readonly');	
+	}
+
+});
+
+$('#C3P342_5').change(function(event) {
+	if($(this).val() == 1){
+		$('#C3P342_OBS').removeAttr('disabled');
+	}else{
+		$('#C3P342_OBS').val('');
+		$('#C3P342_OBS').attr('disabled','disabled');
+	}
+});
+
+
+$(document).on("change",'.cap3_res44',function() {
+		var pre = $(this).attr('id');
+		var nro;
+		nro = pre.substring(7,8);	
+
+	if($(this).val() == 1){
+		 	$('#C3P345_' + nro).removeAttr('readonly');
+	}else{
+		 	$('#C3P345_' + nro).val('');
+		 	$('#C3P345_' + nro).attr('readonly','readonly');	
+	}
+
+});
+
+
+$('#C3P348').change(function(event) {
+	if($(this).val() == 2){
+		i_disable('#C3P349');
+		i_disable('#C3P349_OBS');
+	}else{
+		i_enable('#C3P349');
+		i_enable('#C3P349_OBS');
+	}
+});
+
+
 $('#C3P349').change(function(event) {
 	if($(this).val() == 4){
 		$('#C3P349_OBS').removeAttr('disabled');
@@ -3035,6 +4346,58 @@ $('#C3P349').change(function(event) {
 		$('#C3P349_OBS').attr('disabled','disabled');
 	}
 });
+
+$('#C3P350').change(function(event) {
+	if($(this).val() == 2){
+		i_disable('#C3P351_1A');
+		i_disable('#C3P351_1B');
+		i_disable('#C3P351_1C');
+		i_disable('#C3P351_2A');
+		i_disable('#C3P351_2B');
+		i_disable('#C3P351_2C');		
+		i_disable('#C3P351_3A');
+		i_disable('#C3P351_3B');
+		i_disable('#C3P351_3C');	
+		i_disable('#C3P351_4A');
+		i_disable('#C3P351_4B');
+		i_disable('#C3P351_4C');				
+		i_disable('#C3P352');				
+	}else{
+		i_enable('#C3P351_1A');
+		i_enable('#C3P351_1B');
+		i_enable('#C3P351_1C');
+		i_enable('#C3P351_2A');
+		i_enable('#C3P351_2B');
+		i_enable('#C3P351_2C');		
+		i_enable('#C3P351_3A');
+		i_enable('#C3P351_3B');
+		i_enable('#C3P351_3C');	
+		i_enable('#C3P351_4A');
+		i_enable('#C3P351_4B');
+		i_enable('#C3P351_4C');			
+		i_enable('#C3P352');			
+	}
+});
+
+
+
+
+
+
+$('#C3P354').change(function(event) {
+	if($(this).val() == 1 || $(this).val() == 2 || $(this).val() == 3 || $(this).val() == 4){
+		i_disable('#C3P355');				
+		i_disable('#C3P355_OBS');				
+		i_disable('#C3P356');				
+	}else{
+		i_enable('#C3P355');				
+		i_enable('#C3P355_OBS');				
+		i_enable('#C3P356');					
+	}
+});
+
+
+
 
 $('#C3P355').change(function(event) {
 	if($(this).val() == 5){
@@ -3219,7 +4582,7 @@ $("#C3P314_CCPP").change(function(event) {
 if(<?php echo $CAP03->num_rows() ?> == 1){
 	$.each( <?php echo json_encode($CAP03->row()); ?>, function(fila, valor) {
 
-			if(fila == 'C3P304_CCDD' || fila == 'C3P314_CCDD' || fila == 'C3P307_C1' || fila == 'C3P307_C2' || fila == 'C3P307_C3' || fila == 'C3P307_C4' || fila == 'C3P309_9' || fila == 'C3P318_8' || fila == 'C3P321_1' || fila == 'C3P321_2' || fila == 'C3P321_3' || fila == 'C3P321_4' || fila == 'C3P321_5' || fila == 'C3P321_6' || fila == 'C3P321_7' || fila == 'C3P322' || fila == 'C3P323' || fila == 'C3P324' || fila == 'C3P329' || fila == 'C3P330' || fila == 'C3P331' || fila == 'C3P332' || fila == 'C3P334' || fila == 'C3P336_3' || fila == 'C3P337' || fila == 'C3P349' || fila == 'C3P355' || fila == 'C3P360_8'  || fila == 'C3P361_5'  || fila == 'C3P362_8'){
+			if( fila == 'C3P301' || fila == 'C3P304_CCDD' || fila == 'C3P308' || fila == 'C3P310' || fila == 'C3P314_CCDD' || fila == 'C3P307_C1' || fila == 'C3P307_C2' || fila == 'C3P307_C3' || fila == 'C3P307_C4' || fila == 'C3P309_9' ||  fila == 'C3P317_CU' || fila == 'C3P317_NCI' ||  fila == 'C3P318_8' || fila == 'C3P319' || fila == 'C3P320_MES'  || fila == 'C3P321_1' || fila == 'C3P321_2' || fila == 'C3P321_3' || fila == 'C3P321_4' || fila == 'C3P321_5' || fila == 'C3P321_6' || fila == 'C3P321_7' || fila == 'C3P322' || fila == 'C3P322_NCU' || fila == 'C3P323' || fila == 'C3P324' || fila == 'C3P328' || fila == 'C3P329' || fila == 'C3P330' || fila == 'C3P331' || fila == 'C3P332' || fila == 'C3P334' || fila == 'C3P336_3' || fila == 'C3P337' || fila == 'C3P338_5' || fila == 'C3P342_OBS' || fila == 'C3P342_5'  ||  fila == 'C3P348'  || fila == 'C3P349'  || fila == 'C3P350'|| fila == 'C3P354' || fila == 'C3P355' || fila == 'C3P360_8'  || fila == 'C3P361_5'  || fila == 'C3P362_8'){
 	   			$('#' + fila).val(valor);
 	   			$('#' + fila).trigger('change');	
 
@@ -3967,7 +5330,7 @@ $("#cap3_f").validate({
 
 		    	C3P349:{		    			
 		    		range:[1,4],			    				    				    				    			
-		    		required:true,		    			
+		    		// required:true,		    			
 		    	},	
 
 		    	C3P349_OBS:{		    			    			

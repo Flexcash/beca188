@@ -35,13 +35,19 @@
 					}
 				}else{
 			?>
+
+
 					<li>
 						<a href="<?php echo base_url('index.php/auth/login'); ?>">Login</a>
 					</li>
 			<?php 
 				}
-			?>
 
+			?>
+					<li>
+						<a target="top" href="<?php echo base_url('media/instructivo.pdf'); ?>">Instructivo</a>
+						
+					</li>
 			</ul>
 
 			<?php 

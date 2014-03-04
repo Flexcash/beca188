@@ -164,6 +164,30 @@ echo form_close();
 
 $(function(){
 
+$(document).on("change",'.cap4_res7',function() {
+		var pre = $(this).attr('id');
+		var tex = pre.substring(0,7);
+		var nro;
+
+			if(pre.length == 8){
+				 nro = pre.substring(7,8);
+			}
+			else if(pre.length == 9){
+				nro = pre.substring(7,9);
+			}				
+			
+	if($(this).val() == 2 || $(this).val() == '' ){
+		 	i_disable('#C4P408_'+ nro)
+		 	i_disable('#C4P409_'+ nro)
+		 	i_disable('#C4P410_'+ nro)
+	}else{
+		 	i_enable('#C4P408_'+ nro)
+		 	i_enable('#C4P409_'+ nro)
+		 	i_enable('#C4P410_'+ nro)
+	}
+
+});
+
 //val car_n
 $(document).on("change",'.cap4_res',function() {
 		var pre = $(this).attr('id');
@@ -177,10 +201,16 @@ $(document).on("change",'.cap4_res',function() {
 			}				
 			
 	if($(this).val() == 7){
+			i_enable('#C4P404_'+ nro)
 		 	$('#C4P403_OBS_' + nro).removeAttr('readonly');
+	}else if($(this).val() == 2){
+			i_disable('#C4P404_'+ nro)
+			$('#C4P403_OBS_' + nro).val('');
+		 	$('#C4P403_OBS_' + nro).attr('readonly','readonly');	
 	}else{
-		 	$('#C4P403_OBS_' + nro).val('');
-		 	$('#C4P403_OBS_' + nro).attr('readonly','readonly');
+			i_enable('#C4P404_'+ nro)
+			$('#C4P403_OBS_' + nro).val('');
+		 	$('#C4P403_OBS_' + nro).attr('readonly','readonly');	
 	}
 
 });
@@ -202,7 +232,7 @@ $('#pcap4_n tr').remove('.entrev');
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C4P404[]"  id="C4P404_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C4P405[]"  id="C4P405_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C4P406[]"  id="C4P406_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C4P407[]"  id="C4P407_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control cap4_res7 embc' + i + '" maxlength="1" name="C4P407[]"  id="C4P407_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C4P408[]"  id="C4P408_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="50" name="C4P409[]"  id="C4P409_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="50" name="C4P410[]"  id="C4P410_' + i + '" value="" ><div class="help-block error"></div></td>';
@@ -227,6 +257,7 @@ $('#pcap4_n tr').remove('.entrev');
 		   $('#C4P405_' +  as).val(data.C4P405);
 		   $('#C4P406_' +  as).val(data.C4P406);
 		   $('#C4P407_' +  as).val(data.C4P407);
+		   $('#C4P407_' +  as).trigger('change');
 		   $('#C4P408_' +  as).val(data.C4P408);
 		   $('#C4P409_' +  as).val(data.C4P409);
 		   $('#C4P410_' +  as).val(data.C4P410);
@@ -256,7 +287,7 @@ $("#cap4_f").validate({
 				}, 
 				'C4P404[]':{
 					range:[1,2],
-				    required:true,
+				    requeridodis:true,
 				},	       
 				'C4P405[]':{
 					range:[1,2],
