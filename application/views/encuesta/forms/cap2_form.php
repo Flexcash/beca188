@@ -96,7 +96,7 @@ $C2P205_8 = array(
 $C2P205_8OBS = array(
 	'name'	=> 'C2P205_8OBS',
 	'id'	=> 'C2P205_8OBS',
-	'maxlength'	=> 1,
+	'maxlength'	=> 50,
 	'class' => 'form-control',
 );
 

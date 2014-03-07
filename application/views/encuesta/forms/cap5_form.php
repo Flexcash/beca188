@@ -577,8 +577,101 @@ echo form_close();
 
 $(function(){
 
+
+$('#C5P501').change(function(event) {
+
+	if(parseInt($(this).val()) == 1){
+		i_disable('#C5P502');
+		i_disable('#C5P503');
+		i_disable('#C5P504_1');
+		i_disable('#C5P504_2');
+		i_disable('#C5P504_3');
+		i_disable('#C5P504_4');
+		i_disable('#C5P504_5');
+		i_disable('#C5P504_6');
+		i_disable('#C5P504_7');
+		i_disable('#C5P504_8');
+		i_disable('#C5P504_9');
+		i_disable('#C5P504_9OBS');
+	}else{
+		i_enable('#C5P502');
+		i_enable('#C5P503');
+		i_enable('#C5P504_1');
+		i_enable('#C5P504_2');
+		i_enable('#C5P504_3');
+		i_enable('#C5P504_4');
+		i_enable('#C5P504_5');
+		i_enable('#C5P504_6');
+		i_enable('#C5P504_7');
+		i_enable('#C5P504_8');
+		i_enable('#C5P504_9');
+		i_enable('#C5P504_9OBS');
+	}
+
+});
+
+$('#C5P502').change(function(event) {
+if(!$("#C5P502").is(':disabled')){
+
+	if(parseInt($(this).val()) == 1){
+		i_disable('#C5P503');
+		i_disable('#C5P504_1');
+		i_disable('#C5P504_2');
+		i_disable('#C5P504_3');
+		i_disable('#C5P504_4');
+		i_disable('#C5P504_5');
+		i_disable('#C5P504_6');
+		i_disable('#C5P504_7');
+		i_disable('#C5P504_8');
+		i_disable('#C5P504_9');
+		i_disable('#C5P504_9OBS');
+	}else{
+		i_enable('#C5P503');
+		i_enable('#C5P504_1');
+		i_enable('#C5P504_2');
+		i_enable('#C5P504_3');
+		i_enable('#C5P504_4');
+		i_enable('#C5P504_5');
+		i_enable('#C5P504_6');
+		i_enable('#C5P504_7');
+		i_enable('#C5P504_8');
+		i_enable('#C5P504_9');
+		i_enable('#C5P504_9OBS');
+	}
+}
+});
+
+$('#C5P503').change(function(event) {
+if(!$("#C5P503").is(':disabled')){
+
+	if(parseInt($(this).val()) == 1){
+		i_disable('#C5P504_1');
+		i_disable('#C5P504_2');
+		i_disable('#C5P504_3');
+		i_disable('#C5P504_4');
+		i_disable('#C5P504_5');
+		i_disable('#C5P504_6');
+		i_disable('#C5P504_7');
+		i_disable('#C5P504_8');
+		i_disable('#C5P504_9');
+		i_disable('#C5P504_9OBS');
+	}else{
+		i_enable('#C5P504_1');
+		i_enable('#C5P504_2');
+		i_enable('#C5P504_3');
+		i_enable('#C5P504_4');
+		i_enable('#C5P504_5');
+		i_enable('#C5P504_6');
+		i_enable('#C5P504_7');
+		i_enable('#C5P504_8');
+		i_enable('#C5P504_9');
+		i_enable('#C5P504_9OBS');
+	}
+}
+});
+
 $('#C5P504_9').change(function(event) {
-	if($(this).val() == 1){
+	if(parseInt($(this).val()) == 1){
 		i_enable('#C5P504_9OBS');
 	}else{
 		i_disable('#C5P504_9OBS');
@@ -586,7 +679,7 @@ $('#C5P504_9').change(function(event) {
 });
 
 $('#C5P507').change(function(event) {
-	if($(this).val() == 7){
+	if(parseInt($(this).val()) == 7){
 		i_enable('#C5P507_OBS');
 	}else{
 		i_disable('#C5P507_OBS');
@@ -594,7 +687,7 @@ $('#C5P507').change(function(event) {
 });
 
 $('#C5P508').change(function(event) {
-	if($(this).val() == 8){
+	if(parseInt($(this).val()) == 8){
 		i_enable('#C5P508_OBS');
 	}else{
 		i_disable('#C5P508_OBS');
@@ -603,7 +696,7 @@ $('#C5P508').change(function(event) {
 
 
 $('#C5P513').change(function(event) {
-	if($(this).val() == 4){
+	if(parseInt($(this).val()) == 4){
 		i_enable('#C5P513_OBS');
 	}else{
 		i_disable('#C5P513_OBS');
@@ -611,17 +704,98 @@ $('#C5P513').change(function(event) {
 });
 
 $('#C5P514').change(function(event) {
-	if($(this).val() == 7){
+	if(parseInt($(this).val()) == 7){
 		i_enable('#C5P514_OBS');
 	}else{
 		i_disable('#C5P514_OBS');
 	}
 });
 
+
+
+$('#C5P504_9').change(function(event) {
+	if(!$("#C5P504_9").is(':disabled')){
+	if(parseInt($(this).val()) == 2 && parseInt($('#C5P504_1').val()) == 2 && parseInt($('#C5P504_2').val()) == 2 && parseInt($('#C5P504_3').val()) == 2 && parseInt($('#C5P504_4').val()) == 2 && parseInt($('#C5P504_5').val()) == 2 && parseInt($('#C5P504_6').val()) == 2 && parseInt($('#C5P504_7').val()) == 2 && parseInt($('#C5P504_8').val()) == 2){
+		i_disable('#C5P505A');				
+		i_disable('#C5P505B');				
+		i_disable('#C5P506');				
+		i_disable('#C5P507');				
+		i_disable('#C5P507_OBS');				
+		i_disable('#C5P508');				
+		i_disable('#C5P508_OBS');				
+		i_disable('#C5P509_7');				
+		i_disable('#C5P509_1');				
+		i_disable('#C5P509_2');				
+		i_disable('#C5P509_3');				
+		i_disable('#C5P509_4');				
+		i_disable('#C5P509_5');				
+		i_disable('#C5P509_6');				
+		i_disable('#C5P509_8');				
+		i_disable('#C5P510');				
+		i_disable('#C5P511_MON');				
+		i_disable('#C5P511_ESP');				
+		i_disable('#C5P512_MON');				
+		i_disable('#C5P512_ESP');				
+		i_disable('#C5P512_ESP');				
+		i_disable('#C5P512_NSA');				
+		i_disable('#C5P513');				
+		i_disable('#C5P513_OBS');				
+		i_disable('#C5P514');				
+		i_disable('#C5P514_OBS');				
+	}else{			
+		i_enable('#C5P505A');				
+		i_enable('#C5P505B');				
+		i_enable('#C5P506');				
+		i_enable('#C5P507');				
+		i_enable('#C5P507_OBS');				
+		i_enable('#C5P508');				
+		i_enable('#C5P508_OBS');				
+		i_enable('#C5P509_7');				
+		i_enable('#C5P509_1');				
+		i_enable('#C5P509_2');				
+		i_enable('#C5P509_3');				
+		i_enable('#C5P509_4');				
+		i_enable('#C5P509_5');				
+		i_enable('#C5P509_6');				
+		i_enable('#C5P509_8');				
+		i_enable('#C5P510');				
+		i_enable('#C5P511_MON');				
+		i_enable('#C5P511_ESP');				
+		i_enable('#C5P512_MON');				
+		i_enable('#C5P512_ESP');				
+		i_enable('#C5P512_ESP');				
+		i_enable('#C5P512_NSA');				
+		i_enable('#C5P513');				
+		i_enable('#C5P513_OBS');				
+		i_enable('#C5P514');				
+		i_enable('#C5P514_OBS');					
+	}
+	}
+});
+
+
+$('#C5P510').change(function(event) {
+	if(!$("#C5P510").is(':disabled')){
+	if(parseInt($(this).val()) == 0){
+		i_disable('#C5P511_MON');				
+		i_disable('#C5P511_ESP');				
+		// i_disable('#C5P512_MON');				
+		// i_disable('#C5P512_ESP');				
+		// i_disable('#C5P512_NSA');				
+	}else{
+		i_enable('#C5P511_MON');				
+		i_enable('#C5P511_ESP');				
+		// i_enable('#C5P512_MON');				
+		// i_enable('#C5P512_ESP');				
+		// i_enable('#C5P512_NSA');					
+	}
+	}
+});
+
 if(<?php echo $CAP05->num_rows() ?> == 1){
 
 	$.each( <?php echo json_encode($CAP05->row()); ?>, function(fila, valor) {
-	    if(fila == 'C5P504_9' || fila == 'C5P507' || fila == 'C5P508' || fila == 'C5P513' || fila == 'C5P513' || fila == 'C5P514'){
+	    if(fila == 'C5P501' || fila == 'C5P502' || fila == 'C5P503' || fila == 'C5P504_9' || fila == 'C5P507' || fila == 'C5P508' || fila == 'C5P510' || fila == 'C5P513' || fila == 'C5P513' || fila == 'C5P514'){
 			$('#' + fila).val(valor);
 			$('#' + fila).trigger('change');		
 		}else{			
@@ -652,35 +826,35 @@ $("#cap5_f").validate({
 		    	},	
 
 		    	C5P504_1:{
-		    		range:[0,1],
+		    		range:[1,2],
 		    	},	
 
 		    	C5P504_2:{
-		    		range:[0,1],
+		    		range:[1,2],
 		    	},	
 		    	C5P504_3:{
-		    		range:[0,1],
+		    		range:[1,2],
 		    	},	
 
 		    	C5P504_4:{
-		    		range:[0,1],
+		    		range:[1,2],
 		    	},	
 
 		    	C5P504_5:{
-		    		range:[0,1],
+		    		range:[1,2],
 		    	},	
 
 		    	C5P504_6:{
-		    		range:[0,1],
+		    		range:[1,2],
 		    	},	
 		    	C5P504_7:{
-		    		range:[0,1],
+		    		range:[1,2],
 		    	},	
 		    	C5P504_8:{
-		    		range:[0,1],
+		    		range:[1,2],
 		    	},	
 		    	C5P504_9:{
-		    		range:[0,1],
+		    		range:[1,2],
 		    	},	
 		    	C5P504_9OBS:{
 		    	},	
@@ -737,10 +911,7 @@ $("#cap5_f").validate({
 		    	},	
 
 		    	C5P509_8:{
-		    		range:[0,24],
-		    		required:true,
-		    	},	
-		    	C5P509_TOTAL:{
+		    		range:[0,98],
 		    		required:true,
 		    	},	
 

@@ -312,9 +312,9 @@ $.validator.addMethod("valexclusive", function(value, element, arg){
     if((!element.readOnly)){
         for(var i = 0; i<=arg.length; i++){
               if($('#' + arg[i]).val() == 1) 
-                contador += 1;
+                contador++;
         }
-        if( contador > 1 && contador < arg.length ){
+        if( contador > 1){
             flag = false;
         }          
     }

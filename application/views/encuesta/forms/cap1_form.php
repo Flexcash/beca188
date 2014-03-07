@@ -203,6 +203,103 @@ $(document).on("change",'.cap1_res',function() {
 
 });
 
+
+
+$(document).on("change",'.cap1_res3',function() {
+		var pre = $(this).attr('id');
+		var tex = pre.substring(0,7);
+		var nro;
+
+			if(pre.length == 8){
+				 nro = pre.substring(7,8);
+			}
+			else if(pre.length == 9){
+				nro = pre.substring(7,9);
+			}				
+			
+	if($(this).val() == 1){
+		 	i_disable('#C1P109_' + nro);
+		 	i_disable('#C1P110_' + nro);
+		 	i_disable('#C1P111_' + nro);
+		 	i_disable('#C1P112_' + nro);
+		 	i_disable('#C1P113_' + nro);
+		 	i_disable('#C1P114_' + nro);
+		 	i_disable('#C1P114_OBS_' + nro);
+	}else{
+		 	i_enable('#C1P109_' + nro);
+		 	i_enable('#C1P110_' + nro);
+		 	i_enable('#C1P111_' + nro);
+		 	i_enable('#C1P112_' + nro);
+		 	i_enable('#C1P113_' + nro);
+		 	i_enable('#C1P114_' + nro);		 	
+		 	i_enable('#C1P114_' + nro);		 	
+		 	i_enable('#C1P114_OBS_' + nro);
+	}
+
+});
+
+
+$(document).on("change",'.cap1_res6',function() {
+		var pre = $(this).attr('id');
+		var tex = pre.substring(0,7);
+		var nro;
+
+			if(pre.length == 8){
+				 nro = pre.substring(7,8);
+			}
+			else if(pre.length == 9){
+				nro = pre.substring(7,9);
+			}				
+			
+	if(parseInt($(this).val()) <= 3){
+		 	i_disable('#C1P107_' + nro);
+		 	i_disable('#C1P108_' + nro);
+		 	i_disable('#C1P109_' + nro);
+		 	i_disable('#C1P109_' + nro);
+		 	i_disable('#C1P110_' + nro);
+		 	i_disable('#C1P111_' + nro);
+		 	i_disable('#C1P112_' + nro);
+		 	i_disable('#C1P113_' + nro);
+		 	i_disable('#C1P114_' + nro);
+		 	i_disable('#C1P114_OBS_' + nro);
+	}else if(parseInt($(this).val()) > 3 && parseInt($(this).val()) < 14){	
+			i_enable('#C1P107_' + nro);
+		 	i_enable('#C1P108_' + nro);
+		 	i_enable('#C1P109_' + nro);
+		 	i_enable('#C1P110_' + nro);
+		 	i_enable('#C1P111_' + nro);
+		 	i_disable('#C1P112_' + nro);
+		 	i_disable('#C1P113_' + nro);
+		 	i_disable('#C1P114_' + nro);		 	
+		 	i_disable('#C1P114_' + nro);		 	
+		 	i_disable('#C1P114_OBS_' + nro);	
+	}else if(parseInt($(this).val()) >= 14 && parseInt($(this).val()) <= 23){
+			i_enable('#C1P107_' + nro);
+		 	i_enable('#C1P108_' + nro);
+		 	i_enable('#C1P109_' + nro);
+		 	i_enable('#C1P110_' + nro);
+		 	i_enable('#C1P111_' + nro);
+		 	i_disable('#C1P112_' + nro);
+		 	i_disable('#C1P113_' + nro);
+		 	i_disable('#C1P114_' + nro);		 	
+		 	i_disable('#C1P114_' + nro);		 	
+		 	i_disable('#C1P114_OBS_' + nro);
+	}else if(parseInt($(this).val()) > 23){
+			i_enable('#C1P107_' + nro);
+		 	i_enable('#C1P108_' + nro);		
+		 	i_disable('#C1P109_' + nro);
+		 	i_disable('#C1P110_' + nro);
+		 	i_disable('#C1P111_' + nro);
+		 	i_enable('#C1P112_' + nro);
+		 	i_enable('#C1P113_' + nro);
+		 	i_enable('#C1P114_' + nro);		 	
+		 	i_enable('#C1P114_' + nro);		 	
+		 	i_enable('#C1P114_OBS_' + nro);		 	
+	}
+
+});
+
+
 $('#pcap1_num').val((<?php echo $CAP01->num_rows(); ?> > 0) ? <?php echo $CAP01->num_rows(); ?> : '' );
 
 $('#pcap1_num').keyup(function(event) {
@@ -218,10 +315,10 @@ $('#pcap1_bn tr').remove('.entrev');
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="50" name="C1P102A[]" id="C1P102A_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="50" name="C1P102B[]" id="C1P102B_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="50" name="C1P102C[]"  id="C1P102C_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C1P103[]"  id="C1P103_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control cap1_res3 embc' + i + '" maxlength="1" name="C1P103[]"  id="C1P103_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C1P104[]"  id="C1P104_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C1P105[]"  id="C1P105_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="2" name="C1P106[]"  id="C1P106_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control cap1_res6 embc' + i + '" maxlength="2" name="C1P106[]"  id="C1P106_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd += '</tr>';
 	    $('#pcap1_an > tbody').append(asd);
 	  }

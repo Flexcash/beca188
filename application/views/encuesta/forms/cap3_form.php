@@ -11,7 +11,7 @@ $C3P301 = array(
 $C3P302 = array(
 	'name'	=> 'C3P302',
 	'id'	=> 'C3P302',
-	'maxlength'	=> 4,
+	'maxlength'	=> 1,
 	'class' => 'form-control',
 );
 
@@ -240,7 +240,7 @@ $C3P309_9 = array(
 $C3P309_9OBS = array(
 	'name'	=> 'C3P309_9OBS',
 	'id'	=> 'C3P309_9OBS',
-	'maxlength'	=> 2,
+	'maxlength'	=> 50,
 	'class' => 'form-control',
 );
 
@@ -275,7 +275,7 @@ $C3P312 = array(
 $C3P313 = array(
 	'name'	=> 'C3P313',
 	'id'	=> 'C3P313',
-	'maxlength'	=> 2,
+	'maxlength'	=> 50,
 	'class' => 'form-control',
 );
 
@@ -762,7 +762,7 @@ $C3P336_3 = array(
 $C3P336_3OBS = array(
 	'name'	=> 'C3P336_3OBS',
 	'id'	=> 'C3P336_3OBS',
-	'maxlength'	=> 1,
+	'maxlength'	=> 50,
 	'class' => 'form-control',
 );
 
@@ -1977,7 +1977,7 @@ echo '
 					              <tbody>
 					               <tr>
 					                 <th class="span1"></th>
-					                 <th class="span1">Si/No</th>
+					                 <th class="span1">(1)Si / (2)No</th>
 					                 <th class="span1">(1) De 1 a 5 días/ (2) Más de 5 días</th>
 					                </tr>
 					              <tr>
@@ -4031,6 +4031,71 @@ $('#C3P307_C4').change(function(event) {
 	}
 });
 
+
+$('#C3P307_C4').change(function(event) {
+	if(!$("#C3P307_C4").is(':disabled')){
+
+	if(parseInt($(this).val()) == 1 || parseInt($('#C3P307_C1').val()) == 1 || parseInt($('#C3P307_C2').val()) == 1 || parseInt($('#C3P307_C3').val()) == 1){
+		i_disable('#C3P308');
+		i_disable('#C3P309_1');
+		i_disable('#C3P309_2');
+		i_disable('#C3P309_3');
+		i_disable('#C3P309_4');
+		i_disable('#C3P309_5');
+		i_disable('#C3P309_6');
+		i_disable('#C3P309_7');
+		i_disable('#C3P309_8');
+		i_disable('#C3P309_9');
+		i_disable('#C3P309_9OBS');
+		i_disable('#C3P310');
+		$('#C3P310').trigger('change');
+		i_disable('#C3P311_ANIO');
+		i_disable('#C3P311_MES');
+		i_disable('#C3P312');
+		i_disable('#C3P313');
+		i_disable('#C3P313A');
+		i_disable('#C3P314_CCDD');
+		i_disable('#C3P314_CCPP');
+		i_disable('#C3P314_CCDI');
+		i_disable('#C3P315');
+		i_disable('#C3P316_A');
+		i_disable('#C3P316_B');
+		i_disable('#C3P317_CI');
+		i_disable('#C3P317_CU');
+		$('#C3P317_CU').trigger('change');		
+	}else{
+		i_enable('#C3P308');
+		i_enable('#C3P309_1');
+		i_enable('#C3P309_2');
+		i_enable('#C3P309_3');
+		i_enable('#C3P309_4');
+		i_enable('#C3P309_5');
+		i_enable('#C3P309_6');
+		i_enable('#C3P309_7');
+		i_enable('#C3P309_8');
+		i_enable('#C3P309_9');
+		i_enable('#C3P309_9OBS');
+		i_enable('#C3P310');
+		$('#C3P310').trigger('change');
+		i_enable('#C3P311_ANIO');
+		i_enable('#C3P311_MES');
+		i_enable('#C3P312');
+		i_enable('#C3P313');
+		i_enable('#C3P313A');
+		i_enable('#C3P314_CCDD');
+		i_enable('#C3P314_CCPP');
+		i_enable('#C3P314_CCDI');
+		i_enable('#C3P315');
+		i_enable('#C3P316_A');
+		i_enable('#C3P316_B');
+		i_enable('#C3P317_CI');
+		i_enable('#C3P317_CU');
+		$('#C3P317_CU').trigger('change');					
+	}
+	}
+});
+
+
 $('#C3P309_9').change(function(event) {
 	if($(this).val() == 1){
 		$('#C3P309_9OBS').removeAttr('disabled');
@@ -4339,15 +4404,19 @@ $('#C3P348').change(function(event) {
 
 
 $('#C3P349').change(function(event) {
+	if(!$("#C3P349").is(':disabled')){
 	if($(this).val() == 4){
 		$('#C3P349_OBS').removeAttr('disabled');
 	}else{
 		$('#C3P349_OBS').val('');
 		$('#C3P349_OBS').attr('disabled','disabled');
 	}
+	}
 });
 
 $('#C3P350').change(function(event) {
+	if(!$("#C3P350").is(':disabled')){
+
 	if($(this).val() == 2){
 		i_disable('#C3P351_1A');
 		i_disable('#C3P351_1B');
@@ -4377,6 +4446,7 @@ $('#C3P350').change(function(event) {
 		i_enable('#C3P351_4C');			
 		i_enable('#C3P352');			
 	}
+	}
 });
 
 
@@ -4385,6 +4455,7 @@ $('#C3P350').change(function(event) {
 
 
 $('#C3P354').change(function(event) {
+	if(!$("#C3P354").is(':disabled')){
 	if($(this).val() == 1 || $(this).val() == 2 || $(this).val() == 3 || $(this).val() == 4){
 		i_disable('#C3P355');				
 		i_disable('#C3P355_OBS');				
@@ -4393,6 +4464,7 @@ $('#C3P354').change(function(event) {
 		i_enable('#C3P355');				
 		i_enable('#C3P355_OBS');				
 		i_enable('#C3P356');					
+	}
 	}
 });
 

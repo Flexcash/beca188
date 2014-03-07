@@ -125,112 +125,112 @@ $C6P601_16 = array(
 $C6P602H_1 = array(
 	'name'	=> 'C6P602H_1',
 	'id'	=> 'C6P602H_1',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602H_2 = array(
 	'name'	=> 'C6P602H_2',
 	'id'	=> 'C6P602H_2',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602H_3 = array(
 	'name'	=> 'C6P602H_3',
 	'id'	=> 'C6P602H_3',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602H_4 = array(
 	'name'	=> 'C6P602H_4',
 	'id'	=> 'C6P602H_4',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602H_5 = array(
 	'name'	=> 'C6P602H_5',
 	'id'	=> 'C6P602H_5',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602H_6 = array(
 	'name'	=> 'C6P602H_6',
 	'id'	=> 'C6P602H_6',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602H_7 = array(
 	'name'	=> 'C6P602H_7',
 	'id'	=> 'C6P602H_7',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602H_8 = array(
 	'name'	=> 'C6P602H_8',
 	'id'	=> 'C6P602H_8',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602H_9 = array(
 	'name'	=> 'C6P602H_9',
 	'id'	=> 'C6P602H_9',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602H_10 = array(
 	'name'	=> 'C6P602H_10',
 	'id'	=> 'C6P602H_10',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602H_11 = array(
 	'name'	=> 'C6P602H_11',
 	'id'	=> 'C6P602H_11',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602H_12 = array(
 	'name'	=> 'C6P602H_12',
 	'id'	=> 'C6P602H_12',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602H_13 = array(
 	'name'	=> 'C6P602H_13',
 	'id'	=> 'C6P602H_13',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602H_14 = array(
 	'name'	=> 'C6P602H_14',
 	'id'	=> 'C6P602H_14',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602H_15 = array(
 	'name'	=> 'C6P602H_15',
 	'id'	=> 'C6P602H_15',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602H_16 = array(
 	'name'	=> 'C6P602H_16',
 	'id'	=> 'C6P602H_16',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
@@ -461,112 +461,112 @@ $C6P602A_16 = array(
 $C6P603H_1 = array(
 	'name'	=> 'C6P603H_1',
 	'id'	=> 'C6P603H_1',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603H_2 = array(
 	'name'	=> 'C6P603H_2',
 	'id'	=> 'C6P603H_2',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603H_3 = array(
 	'name'	=> 'C6P603H_3',
 	'id'	=> 'C6P603H_3',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603H_4 = array(
 	'name'	=> 'C6P603H_4',
 	'id'	=> 'C6P603H_4',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603H_5 = array(
 	'name'	=> 'C6P603H_5',
 	'id'	=> 'C6P603H_5',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603H_6 = array(
 	'name'	=> 'C6P603H_6',
 	'id'	=> 'C6P603H_6',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603H_7 = array(
 	'name'	=> 'C6P603H_7',
 	'id'	=> 'C6P603H_7',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603H_8 = array(
 	'name'	=> 'C6P603H_8',
 	'id'	=> 'C6P603H_8',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603H_9 = array(
 	'name'	=> 'C6P603H_9',
 	'id'	=> 'C6P603H_9',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603H_10 = array(
 	'name'	=> 'C6P603H_10',
 	'id'	=> 'C6P603H_10',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603H_11 = array(
 	'name'	=> 'C6P603H_11',
 	'id'	=> 'C6P603H_11',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603H_12 = array(
 	'name'	=> 'C6P603H_12',
 	'id'	=> 'C6P603H_12',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603H_13 = array(
 	'name'	=> 'C6P603H_13',
 	'id'	=> 'C6P603H_13',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603H_14 = array(
 	'name'	=> 'C6P603H_14',
 	'id'	=> 'C6P603H_14',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603H_15 = array(
 	'name'	=> 'C6P603H_15',
 	'id'	=> 'C6P603H_15',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603H_16 = array(
 	'name'	=> 'C6P603H_16',
 	'id'	=> 'C6P603H_16',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
@@ -686,112 +686,112 @@ $C6P603M_16 = array(
 $C6P603A_1 = array(
 	'name'	=> 'C6P603A_1',
 	'id'	=> 'C6P603A_1',
-	'maxlength'	=> 2,
+	'maxlength'	=> 100,
 	'class' => 'form-control',
 );
 
 $C6P603A_2 = array(
 	'name'	=> 'C6P603A_2',
 	'id'	=> 'C6P603A_2',
-	'maxlength'	=> 2,
+	'maxlength'	=> 100,
 	'class' => 'form-control',
 );
 
 $C6P603A_3 = array(
 	'name'	=> 'C6P603A_3',
 	'id'	=> 'C6P603A_3',
-	'maxlength'	=> 2,
+	'maxlength'	=> 100,
 	'class' => 'form-control',
 );
 
 $C6P603A_4 = array(
 	'name'	=> 'C6P603A_4',
 	'id'	=> 'C6P603A_4',
-	'maxlength'	=> 2,
+	'maxlength'	=> 100,
 	'class' => 'form-control',
 );
 
 $C6P603A_5 = array(
 	'name'	=> 'C6P603A_5',
 	'id'	=> 'C6P603A_5',
-	'maxlength'	=> 2,
+	'maxlength'	=> 100,
 	'class' => 'form-control',
 );
 
 $C6P603A_6 = array(
 	'name'	=> 'C6P603A_6',
 	'id'	=> 'C6P603A_6',
-	'maxlength'	=> 2,
+	'maxlength'	=> 100,
 	'class' => 'form-control',
 );
 
 $C6P603A_7 = array(
 	'name'	=> 'C6P603A_7',
 	'id'	=> 'C6P603A_7',
-	'maxlength'	=> 2,
+	'maxlength'	=> 100,
 	'class' => 'form-control',
 );
 
 $C6P603A_8 = array(
 	'name'	=> 'C6P603A_8',
 	'id'	=> 'C6P603A_8',
-	'maxlength'	=> 2,
+	'maxlength'	=> 100,
 	'class' => 'form-control',
 );
 
 $C6P603A_9 = array(
 	'name'	=> 'C6P603A_9',
 	'id'	=> 'C6P603A_9',
-	'maxlength'	=> 2,
+	'maxlength'	=> 100,
 	'class' => 'form-control',
 );
 
 $C6P603A_10 = array(
 	'name'	=> 'C6P603A_10',
 	'id'	=> 'C6P603A_10',
-	'maxlength'	=> 2,
+	'maxlength'	=> 100,
 	'class' => 'form-control',
 );
 
 $C6P603A_11 = array(
 	'name'	=> 'C6P603A_11',
 	'id'	=> 'C6P603A_11',
-	'maxlength'	=> 2,
+	'maxlength'	=> 100,
 	'class' => 'form-control',
 );
 
 $C6P603A_12 = array(
 	'name'	=> 'C6P603A_12',
 	'id'	=> 'C6P603A_12',
-	'maxlength'	=> 2,
+	'maxlength'	=> 100,
 	'class' => 'form-control',
 );
 
 $C6P603A_13 = array(
 	'name'	=> 'C6P603A_13',
 	'id'	=> 'C6P603A_13',
-	'maxlength'	=> 2,
+	'maxlength'	=> 100,
 	'class' => 'form-control',
 );
 
 $C6P603A_14 = array(
 	'name'	=> 'C6P603A_14',
 	'id'	=> 'C6P603A_14',
-	'maxlength'	=> 2,
+	'maxlength'	=> 100,
 	'class' => 'form-control',
 );
 
 $C6P603A_15 = array(
 	'name'	=> 'C6P603A_15',
 	'id'	=> 'C6P603A_15',
-	'maxlength'	=> 2,
+	'maxlength'	=> 100,
 	'class' => 'form-control',
 );
 
 $C6P603A_16 = array(
 	'name'	=> 'C6P603A_16',
 	'id'	=> 'C6P603A_16',
-	'maxlength'	=> 2,
+	'maxlength'	=> 100,
 	'class' => 'form-control',
 );
 
@@ -1092,13 +1092,13 @@ $("#cap6_f").validate({
 		    			},	   			    	    
 		    	C6P602H_1:{
 				    		required:function(e){ return $("#C6P601_1").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		 // rangelength:[1,3]
 		    			},
 		    	C6P602M_1:{		    		
 				    		required:function(e){ return $("#C6P601_1").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602A_1:{		    		
 				    		required:function(e){ return $("#C6P601_1").val()==1 },				    		
@@ -1106,13 +1106,13 @@ $("#cap6_f").validate({
 		    			},
 		    	C6P603H_1:{
 				    		required:function(e){ return $("#C6P601_1").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603M_1:{		    		
 				    		required:function(e){ return $("#C6P601_1").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603A_1:{		    		
 				    		required:function(e){ return $("#C6P601_1").val()==1 },				    		
@@ -1125,13 +1125,13 @@ $("#cap6_f").validate({
 		    			},	   			    	    
 		    	C6P602H_2:{
 				    		required:function(e){ return $("#C6P601_2").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602M_2:{		    		
 				    		required:function(e){ return $("#C6P601_2").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602A_2:{		    		
 				    		required:function(e){ return $("#C6P601_2").val()==1 },				    		
@@ -1139,13 +1139,13 @@ $("#cap6_f").validate({
 		    			},
 		    	C6P603H_2:{
 				    		required:function(e){ return $("#C6P601_2").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603M_2:{		    		
 				    		required:function(e){ return $("#C6P601_2").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603A_2:{		    		
 				    		required:function(e){ return $("#C6P601_2").val()==1 },				    		
@@ -1158,13 +1158,13 @@ $("#cap6_f").validate({
 		    			},	   			    	    
 		    	C6P602H_3:{
 				    		required:function(e){ return $("#C6P601_3").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602M_3:{		    		
 				    		required:function(e){ return $("#C6P601_3").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602A_3:{		    		
 				    		required:function(e){ return $("#C6P601_3").val()==1 },				    		
@@ -1172,13 +1172,13 @@ $("#cap6_f").validate({
 		    			},
 		    	C6P603H_3:{
 				    		required:function(e){ return $("#C6P601_3").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603M_3:{		    		
 				    		required:function(e){ return $("#C6P601_3").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603A_3:{		    		
 				    		required:function(e){ return $("#C6P601_3").val()==1 },				    		
@@ -1191,13 +1191,13 @@ $("#cap6_f").validate({
 		    			},	   			    	    
 		    	C6P602H_4:{
 				    		required:function(e){ return $("#C6P601_4").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602M_4:{		    		
 				    		required:function(e){ return $("#C6P601_4").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602A_4:{		    		
 				    		required:function(e){ return $("#C6P601_4").val()==1 },				    		
@@ -1205,13 +1205,13 @@ $("#cap6_f").validate({
 		    			},
 		    	C6P603H_4:{
 				    		required:function(e){ return $("#C6P601_4").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603M_4:{		    		
 				    		required:function(e){ return $("#C6P601_4").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603A_4:{		    		
 				    		required:function(e){ return $("#C6P601_4").val()==1 },				    		
@@ -1224,13 +1224,13 @@ $("#cap6_f").validate({
 		    			},	   			    	    
 		    	C6P602H_5:{
 				    		required:function(e){ return $("#C6P601_5").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602M_5:{		    		
 				    		required:function(e){ return $("#C6P601_5").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602A_5:{		    		
 				    		required:function(e){ return $("#C6P601_5").val()==1 },				    		
@@ -1238,13 +1238,13 @@ $("#cap6_f").validate({
 		    			},
 		    	C6P603H_5:{
 				    		required:function(e){ return $("#C6P601_5").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603M_5:{		    		
 				    		required:function(e){ return $("#C6P601_5").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603A_5:{		    		
 				    		required:function(e){ return $("#C6P601_5").val()==1 },				    		
@@ -1257,13 +1257,13 @@ $("#cap6_f").validate({
 		    			},	   			    	    
 		    	C6P602H_6:{
 				    		required:function(e){ return $("#C6P601_6").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602M_6:{		    		
 				    		required:function(e){ return $("#C6P601_6").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602A_6:{		    		
 				    		required:function(e){ return $("#C6P601_6").val()==1 },				    		
@@ -1271,13 +1271,13 @@ $("#cap6_f").validate({
 		    			},
 		    	C6P603H_6:{
 				    		required:function(e){ return $("#C6P601_6").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603M_6:{		    		
 				    		required:function(e){ return $("#C6P601_6").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603A_6:{		    		
 				    		required:function(e){ return $("#C6P601_6").val()==1 },				    		
@@ -1290,13 +1290,13 @@ $("#cap6_f").validate({
 		    			},	   			    	    
 		    	C6P602H_7:{
 				    		required:function(e){ return $("#C6P601_7").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602M_7:{		    		
 				    		required:function(e){ return $("#C6P601_7").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602A_7:{		    		
 				    		required:function(e){ return $("#C6P601_7").val()==1 },				    		
@@ -1304,13 +1304,13 @@ $("#cap6_f").validate({
 		    			},
 		    	C6P603H_7:{
 				    		required:function(e){ return $("#C6P601_7").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603M_7:{		    		
 				    		required:function(e){ return $("#C6P601_7").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603A_7:{		    		
 				    		required:function(e){ return $("#C6P601_7").val()==1 },				    		
@@ -1323,13 +1323,13 @@ $("#cap6_f").validate({
 		    			},	   			    	    
 		    	C6P602H_8:{
 				    		required:function(e){ return $("#C6P601_8").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602M_8:{		    		
 				    		required:function(e){ return $("#C6P601_8").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602A_8:{		    		
 				    		required:function(e){ return $("#C6P601_8").val()==1 },				    		
@@ -1337,13 +1337,13 @@ $("#cap6_f").validate({
 		    			},
 		    	C6P603H_8:{
 				    		required:function(e){ return $("#C6P601_8").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603M_8:{		    		
 				    		required:function(e){ return $("#C6P601_8").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603A_8:{		    		
 				    		required:function(e){ return $("#C6P601_8").val()==1 },				    		
@@ -1356,13 +1356,13 @@ $("#cap6_f").validate({
 		    			},	   			    	    
 		    	C6P602H_9:{
 				    		required:function(e){ return $("#C6P601_9").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602M_9:{		    		
 				    		required:function(e){ return $("#C6P601_9").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602A_9:{		    		
 				    		required:function(e){ return $("#C6P601_9").val()==1 },				    		
@@ -1370,13 +1370,13 @@ $("#cap6_f").validate({
 		    			},
 		    	C6P603H_9:{
 				    		required:function(e){ return $("#C6P601_9").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603M_9:{		    		
 				    		required:function(e){ return $("#C6P601_9").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603A_9:{		    		
 				    		required:function(e){ return $("#C6P601_9").val()==1 },				    		
@@ -1389,13 +1389,13 @@ $("#cap6_f").validate({
 		    			},	   			    	    
 		    	C6P602H_10:{
 				    		required:function(e){ return $("#C6P601_10").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602M_10:{		    		
 				    		required:function(e){ return $("#C6P601_10").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602A_10:{		    		
 				    		required:function(e){ return $("#C6P601_10").val()==1 },				    		
@@ -1403,13 +1403,13 @@ $("#cap6_f").validate({
 		    			},
 		    	C6P603H_10:{
 				    		required:function(e){ return $("#C6P601_10").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603M_10:{		    		
 				    		required:function(e){ return $("#C6P601_10").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603A_10:{		    		
 				    		required:function(e){ return $("#C6P601_10").val()==1 },				    		
@@ -1422,13 +1422,13 @@ $("#cap6_f").validate({
 		    			},	   			    	    
 		    	C6P602H_11:{
 				    		required:function(e){ return $("#C6P601_11").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602M_11:{		    		
 				    		required:function(e){ return $("#C6P601_11").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602A_11:{		    		
 				    		required:function(e){ return $("#C6P601_11").val()==1 },				    		
@@ -1436,13 +1436,13 @@ $("#cap6_f").validate({
 		    			},
 		    	C6P603H_11:{
 				    		required:function(e){ return $("#C6P601_11").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603M_11:{		    		
 				    		required:function(e){ return $("#C6P601_11").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603A_11:{		    		
 				    		required:function(e){ return $("#C6P601_11").val()==1 },				    		
@@ -1455,13 +1455,13 @@ $("#cap6_f").validate({
 		    			},	   			    	    
 		    	C6P602H_12:{
 				    		required:function(e){ return $("#C6P601_12").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602M_12:{		    		
 				    		required:function(e){ return $("#C6P601_12").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602A_12:{		    		
 				    		required:function(e){ return $("#C6P601_12").val()==1 },				    		
@@ -1469,13 +1469,13 @@ $("#cap6_f").validate({
 		    			},
 		    	C6P603H_12:{
 				    		required:function(e){ return $("#C6P601_12").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603M_12:{		    		
 				    		required:function(e){ return $("#C6P601_12").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603A_12:{		    		
 				    		required:function(e){ return $("#C6P601_12").val()==1 },				    		
@@ -1488,13 +1488,13 @@ $("#cap6_f").validate({
 		    			},	   			    	    
 		    	C6P602H_13:{
 				    		required:function(e){ return $("#C6P601_13").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602M_13:{		    		
 				    		required:function(e){ return $("#C6P601_13").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602A_13:{		    		
 				    		required:function(e){ return $("#C6P601_13").val()==1 },				    		
@@ -1502,13 +1502,13 @@ $("#cap6_f").validate({
 		    			},
 		    	C6P603H_13:{
 				    		required:function(e){ return $("#C6P601_13").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603M_13:{		    		
 				    		required:function(e){ return $("#C6P601_13").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603A_13:{		    		
 				    		required:function(e){ return $("#C6P601_13").val()==1 },				    		
@@ -1522,13 +1522,13 @@ $("#cap6_f").validate({
 		    			},	   			    	    
 		    	C6P602H_14:{
 				    		required:function(e){ return $("#C6P601_14").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602M_14:{		    		
 				    		required:function(e){ return $("#C6P601_14").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602A_14:{		    		
 				    		required:function(e){ return $("#C6P601_14").val()==1 },				    		
@@ -1536,13 +1536,13 @@ $("#cap6_f").validate({
 		    			},
 		    	C6P603H_14:{
 				    		required:function(e){ return $("#C6P601_14").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603M_14:{		    		
 				    		required:function(e){ return $("#C6P601_14").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603A_14:{		    		
 				    		required:function(e){ return $("#C6P601_14").val()==1 },				    		
@@ -1555,13 +1555,13 @@ $("#cap6_f").validate({
 		    			},	   			    	    
 		    	C6P602H_15:{
 				    		required:function(e){ return $("#C6P601_15").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602M_15:{		    		
 				    		required:function(e){ return $("#C6P601_15").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602A_15:{		    		
 				    		required:function(e){ return $("#C6P601_15").val()==1 },				    		
@@ -1569,13 +1569,13 @@ $("#cap6_f").validate({
 		    			},
 		    	C6P603H_15:{
 				    		required:function(e){ return $("#C6P601_15").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603M_15:{		    		
 				    		required:function(e){ return $("#C6P601_15").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603A_15:{		    		
 				    		required:function(e){ return $("#C6P601_15").val()==1 },				    		
@@ -1588,13 +1588,13 @@ $("#cap6_f").validate({
 		    			},	   			    	    
 		    	C6P602H_16:{
 				    		required:function(e){ return $("#C6P601_16").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602M_16:{		    		
 				    		required:function(e){ return $("#C6P601_16").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P602A_16:{		    		
 				    		required:function(e){ return $("#C6P601_16").val()==1 },				    		
@@ -1602,13 +1602,13 @@ $("#cap6_f").validate({
 		    			},
 		    	C6P603H_16:{
 				    		required:function(e){ return $("#C6P601_16").val()==1 },
-				    		range:[0,99],
-				    		rangelength:[1,2]
+				    		// range:[0,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603M_16:{		    		
 				    		required:function(e){ return $("#C6P601_16").val()==1 },
-				    		valrango:[0,59,99],
-				    		rangelength:[1,2]
+				    		// valrango:[0,59,99],
+				    		// rangelength:[1,2]
 		    			},
 		    	C6P603A_16:{		    		
 				    		required:function(e){ return $("#C6P601_16").val()==1 },				    		

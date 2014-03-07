@@ -233,7 +233,7 @@ $('#pcap4_n tr').remove('.entrev');
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C4P405[]"  id="C4P405_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C4P406[]"  id="C4P406_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd +='<td><input type="text" class="form-control cap4_res7 embc' + i + '" maxlength="1" name="C4P407[]"  id="C4P407_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C4P408[]"  id="C4P408_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="50" name="C4P408[]"  id="C4P408_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="50" name="C4P409[]"  id="C4P409_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="50" name="C4P410[]"  id="C4P410_' + i + '" value="" ><div class="help-block error"></div></td>';
 

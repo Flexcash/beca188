@@ -842,7 +842,13 @@ $('#C4P413').change(function(event) {
 $(document).on("change",'.cap4b_res',function() {
 		var pre = $(this).attr('id');
 		var nro;
-		nro = pre.substring(7,8);	
+
+			if(pre.length == 8){
+				 nro = pre.substring(7,8);
+			}
+			else if(pre.length == 9){
+				nro = pre.substring(7,9);
+			}	
 
 	if($(this).val() == 2){
 		 	i_disable('#C4P415A_' + nro);
@@ -856,6 +862,17 @@ $(document).on("change",'.cap4b_res',function() {
 
 });
 
+$('#C4P415_13').change(function(event) {
+
+	if($(this).val() == 2){
+		i_disable('#C4P415C_13OBS');
+	}else{
+		i_enable('#C4P415C_13OBS');
+	}
+
+});
+
+
 if(<?php echo $CAP04B->num_rows() ?> == 1){
 
 	$.each( <?php echo json_encode($CAP04B->row()); ?>, function(fila, valor) {
@@ -867,9 +884,6 @@ if(<?php echo $CAP04B->num_rows() ?> == 1){
 	    }   	   	
 	}); 
 	
-// setTimeout(function(){
-// 			$("#cap4b_f").valid();
-//          }, 1000); 	
 
 }
 
