@@ -1393,7 +1393,7 @@ $("#cap4b_f").validate({
 				        var bcar = $( "#cap4b_f :submit" );
 				        bcar.attr("disabled", "disabled");
 				        $.ajax({
-				            url: CI.site_url + "/encuesta/cap4b",
+				            url: CI.site_url + "/encuesta/cap4B",
 				            type:'POST',
 				            data:cap4_data,
 				            dataType:'json',
