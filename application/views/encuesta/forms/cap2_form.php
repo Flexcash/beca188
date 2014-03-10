@@ -670,10 +670,10 @@ $("#cap2_f").validate({
 		    	C2P212_OBS:{   	    			
 		    	},	
 		    	C2P213:{   
-		    		range:[1,98],			    						    			
+		    		range:[0,98],			    						    			
 		    	},	
 		    	C2P214:{   
-		    		range:[1,98],			    						    			
+		    		range:[0,98],			    						    			
 		    	},	
 		    },
 
