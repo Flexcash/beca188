@@ -177,13 +177,13 @@ $(document).on("change",'.cap4_res7',function() {
 			}				
 			
 	if($(this).val() == 2 || $(this).val() == '' ){
-		 	i_disable('#C4P408_'+ nro)
-		 	i_disable('#C4P409_'+ nro)
-		 	i_disable('#C4P410_'+ nro)
+		 	i_disread('#C4P408_'+ nro)
+		 	i_disread('#C4P409_'+ nro)
+		 	i_disread('#C4P410_'+ nro)
 	}else{
-		 	i_enable('#C4P408_'+ nro)
-		 	i_enable('#C4P409_'+ nro)
-		 	i_enable('#C4P410_'+ nro)
+		 	i_enread('#C4P408_'+ nro)
+		 	i_enread('#C4P409_'+ nro)
+		 	i_enread('#C4P410_'+ nro)
 	}
 
 });
@@ -223,9 +223,9 @@ $(document).on("change",'.cap4_res4',function() {
 			}				
 			
 	if($(this).val() == 2){
-			 i_disable('#C4P405_'+ nro)
+			 i_disread('#C4P405_'+ nro)
 	}else{
-			i_enable('#C4P405_'+ nro)
+			i_enread('#C4P405_'+ nro)
 	}
 
 });
@@ -305,7 +305,7 @@ $("#cap4_f").validate({
 				},	       
 				'C4P405[]':{
 					range:[1,2],
-				    required:true,
+				    requeridodis:true,
 				},  		              
 				'C4P406[]':{
 					range:[1,2],

@@ -218,22 +218,22 @@ $(document).on("change",'.cap1_res3',function() {
 			}				
 			
 	if($(this).val() == 1){
-		 	i_disable('#C1P109_' + nro);
-		 	i_disable('#C1P110_' + nro);
-		 	i_disable('#C1P111_' + nro);
-		 	i_disable('#C1P112_' + nro);
-		 	i_disable('#C1P113_' + nro);
-		 	i_disable('#C1P114_' + nro);
-		 	i_disable('#C1P114_OBS_' + nro);
+		 	i_disread('#C1P109_' + nro);
+		 	i_disread('#C1P110_' + nro);
+		 	i_disread('#C1P111_' + nro);
+		 	i_disread('#C1P112_' + nro);
+		 	i_disread('#C1P113_' + nro);
+		 	i_disread('#C1P114_' + nro);
+		 	i_disread('#C1P114_OBS_' + nro);
 	}else{
-		 	i_enable('#C1P109_' + nro);
-		 	i_enable('#C1P110_' + nro);
-		 	i_enable('#C1P111_' + nro);
-		 	i_enable('#C1P112_' + nro);
-		 	i_enable('#C1P113_' + nro);
-		 	i_enable('#C1P114_' + nro);		 	
-		 	i_enable('#C1P114_' + nro);		 	
-		 	i_enable('#C1P114_OBS_' + nro);
+		 	i_enread('#C1P109_' + nro);
+		 	i_enread('#C1P110_' + nro);
+		 	i_enread('#C1P111_' + nro);
+		 	i_enread('#C1P112_' + nro);
+		 	i_enread('#C1P113_' + nro);
+		 	i_enread('#C1P114_' + nro);		 	
+		 	i_enread('#C1P114_' + nro);		 	
+		 	i_enread('#C1P114_OBS_' + nro);
 	}
 
 });
@@ -252,54 +252,54 @@ $(document).on("change",'.cap1_res6',function() {
 			}				
 			
 	if(parseInt($(this).val()) <= 3){
-		 	i_disable('#C1P107_' + nro);
-		 	i_disable('#C1P108_' + nro);
+		 	i_disread('#C1P107_' + nro);
+		 	i_disread('#C1P108_' + nro);
 		 	if(parseInt($('#C1P103_'+ nro).val()) != 1){
-		 	i_disable('#C1P109_' + nro);
-		 	i_disable('#C1P109_' + nro);
-		 	i_disable('#C1P110_' + nro);
-		 	i_disable('#C1P111_' + nro);
-		 	i_disable('#C1P112_' + nro);
-		 	i_disable('#C1P113_' + nro);
-		 	i_disable('#C1P114_' + nro);
-		 	i_disable('#C1P114_OBS_' + nro);
+		 	i_disread('#C1P109_' + nro);
+		 	i_disread('#C1P109_' + nro);
+		 	i_disread('#C1P110_' + nro);
+		 	i_disread('#C1P111_' + nro);
+		 	i_disread('#C1P112_' + nro);
+		 	i_disread('#C1P113_' + nro);
+		 	i_disread('#C1P114_' + nro);
+		 	i_disread('#C1P114_OBS_' + nro);
 		 	}
 	}else if(parseInt($(this).val()) > 3 && parseInt($(this).val()) < 14){	
-			i_enable('#C1P107_' + nro);
-		 	i_enable('#C1P108_' + nro);
+			i_enread('#C1P107_' + nro);
+		 	i_enread('#C1P108_' + nro);
 		 	if(parseInt($('#C1P103_'+ nro).val()) != 1){
-		 	i_disable('#C1P109_' + nro);
-		 	i_disable('#C1P110_' + nro);
-		 	i_disable('#C1P111_' + nro);
-		 	i_disable('#C1P112_' + nro);
-		 	i_disable('#C1P113_' + nro);
-		 	i_disable('#C1P114_' + nro);		 	
-		 	i_disable('#C1P114_' + nro);		 	
-		 	i_disable('#C1P114_OBS_' + nro);	
+		 	i_disread('#C1P109_' + nro);
+		 	i_disread('#C1P110_' + nro);
+		 	i_disread('#C1P111_' + nro);
+		 	i_disread('#C1P112_' + nro);
+		 	i_disread('#C1P113_' + nro);
+		 	i_disread('#C1P114_' + nro);		 	
+		 	i_disread('#C1P114_' + nro);		 	
+		 	i_disread('#C1P114_OBS_' + nro);	
 		 	}
 	}else if(parseInt($(this).val()) >= 14 && parseInt($(this).val()) <= 23){
-			i_enable('#C1P107_' + nro);
-		 	i_enable('#C1P108_' + nro);
+			i_enread('#C1P107_' + nro);
+		 	i_enread('#C1P108_' + nro);
 		 	if(parseInt($('#C1P103_'+ nro).val()) != 1){
-		 	i_enable('#C1P109_' + nro);
-		 	i_enable('#C1P110_' + nro);
-		 	i_enable('#C1P111_' + nro);
-		 	i_enable('#C1P112_' + nro);
-		 	i_enable('#C1P113_' + nro);
-		 	i_enable('#C1P114_' + nro);		 	 	
-		 	i_enable('#C1P114_OBS_' + nro);
+		 	i_enread('#C1P109_' + nro);
+		 	i_enread('#C1P110_' + nro);
+		 	i_enread('#C1P111_' + nro);
+		 	i_enread('#C1P112_' + nro);
+		 	i_enread('#C1P113_' + nro);
+		 	i_enread('#C1P114_' + nro);		 	 	
+		 	i_enread('#C1P114_OBS_' + nro);
 			}
 	}else if(parseInt($(this).val()) > 23 ){
-			i_enable('#C1P107_' + nro);
-		 	i_enable('#C1P108_' + nro);		
+			i_enread('#C1P107_' + nro);
+		 	i_enread('#C1P108_' + nro);		
 		 	if(parseInt($('#C1P103_'+ nro).val()) != 1){
-		 	i_disable('#C1P109_' + nro);
-		 	i_disable('#C1P110_' + nro);
-		 	i_disable('#C1P111_' + nro);
-		 	i_enable('#C1P112_' + nro);
-		 	i_enable('#C1P113_' + nro);
-		 	i_enable('#C1P114_' + nro);		 	 	
-		 	i_enable('#C1P114_OBS_' + nro);		
+		 	i_disread('#C1P109_' + nro);
+		 	i_disread('#C1P110_' + nro);
+		 	i_disread('#C1P111_' + nro);
+		 	i_enread('#C1P112_' + nro);
+		 	i_enread('#C1P113_' + nro);
+		 	i_enread('#C1P114_' + nro);		 	 	
+		 	i_enread('#C1P114_OBS_' + nro);		
 		 	} 	
 	}
 
@@ -362,21 +362,21 @@ $('#pcap1_bn tr').remove('.entrev');
 		   $('#C1P104_' +  as).val(data.C1P104);
 		   $('#C1P105_' +  as).val(data.C1P105);
 		   $('#C1P106_' +  as).val(data.C1P106);
-		   if(!$("#C1P106_" + as ).is(':disabled'))
+		   if(!$("#C1P106_" + as ).is('[readonly]'))
 		   $('#C1P106_' +  as).trigger('change');
 		   $('#C1P107_' +  as).val(data.C1P107);
 		   $('#C1P108_' +  as).val(data.C1P108);
 		   $('#C1P109_' +  as).val(data.C1P109);
-		   if(!$("#C1P109_" + as ).is(':disabled'))
+		   if(!$("#C1P109_" + as ).is('[readonly]'))
 		   $('#C1P109_' +  as).trigger('change');
 		   $('#C1P110_' +  as).val(data.C1P110);
-		   if(!$("#C1P110_" + as ).is(':disabled'))
+		   if(!$("#C1P110_" + as ).is('[readonly]'))
 		   $('#C1P110_' +  as).trigger('change');
 		   $('#C1P111_' +  as).val(data.C1P111);
 		   $('#C1P112_' +  as).val(data.C1P112);
 		   $('#C1P113_' +  as).val(data.C1P113);
 		   $('#C1P114_' +  as).val(data.C1P114);
-		   if(!$("#C1P114_" + as ).is(':disabled'))
+		   if(!$("#C1P114_" + as ).is('[readonly]'))
 		   $('#C1P114_' +  as).trigger('change');
 		   $('#C1P114_OBS_' +  as).val(data.C1P114_OBS);
 		   as++;

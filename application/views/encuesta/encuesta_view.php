@@ -541,6 +541,15 @@ function i_enable(ctrl){
 function i_disable(ctrl){
   $(ctrl).val('').attr("disabled","disabled");
 }
+
+
+function i_enread(ctrl){
+  $(ctrl).removeAttr("readonly");
+}
+
+function i_disread(ctrl){
+  $(ctrl).val('').attr("readonly","readonly");
+}
 </script>
 
 
