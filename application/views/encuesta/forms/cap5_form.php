@@ -396,7 +396,7 @@ echo '
 		<h4>Ocupados</h4>	
 			<div class="form-group">
 				<label for="">505. Ocupación principal</label>
-				<p>a. Cuál es la función principal que desempeñó?</p>
+				<p>a. Cuál es la ocupación principal que desempeñó?</p>
 						' . form_input($C5P505A) . '<div class="help-block error"></div>	
 				<p>a. Qué tareas realizó en su ocupación principal?</p>
 						' . form_input($C5P505B) . '<div class="help-block error"></div>												
@@ -579,6 +579,7 @@ $(function(){
 
 
 $('#C5P501').change(function(event) {
+if(!$("#C5P501").is(':disabled')){
 
 	if(parseInt($(this).val()) == 1){
 		i_disable('#C5P502');
@@ -606,6 +607,7 @@ $('#C5P501').change(function(event) {
 		i_enable('#C5P504_8');
 		i_enable('#C5P504_9');
 		i_enable('#C5P504_9OBS');
+	}
 	}
 
 });
@@ -671,44 +673,54 @@ if(!$("#C5P503").is(':disabled')){
 });
 
 $('#C5P504_9').change(function(event) {
+if(!$("#C5P504_9").is(':disabled')){
 	if(parseInt($(this).val()) == 1){
 		i_enable('#C5P504_9OBS');
 	}else{
 		i_disable('#C5P504_9OBS');
 	}
+	}
 });
 
 $('#C5P507').change(function(event) {
+if(!$("#C5P507").is(':disabled')){
 	if(parseInt($(this).val()) == 7){
 		i_enable('#C5P507_OBS');
 	}else{
 		i_disable('#C5P507_OBS');
 	}
+	}
 });
 
 $('#C5P508').change(function(event) {
+if(!$("#C5P508").is(':disabled')){
 	if(parseInt($(this).val()) == 8){
 		i_enable('#C5P508_OBS');
 	}else{
 		i_disable('#C5P508_OBS');
 	}
+	}
 });
 
 
 $('#C5P513').change(function(event) {
+if(!$("#C5P513").is(':disabled')){
 	if(parseInt($(this).val()) == 4){
 		i_enable('#C5P513_OBS');
 	}else{
 		i_disable('#C5P513_OBS');
 	}
+	}
 });
 
 $('#C5P514').change(function(event) {
+if(!$("#C5P514").is(':disabled')){
 	if(parseInt($(this).val()) == 7){
 		i_enable('#C5P514_OBS');
 	}else{
 		i_disable('#C5P514_OBS');
 	}
+}
 });
 
 

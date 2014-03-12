@@ -3901,7 +3901,6 @@ if(!$("#C3P320_MES").is(':disabled')){
 		i_enable('#C3P341_6');
 		i_enable('#C3P340_7');
 		i_enable('#C3P341_7');
-		i_enable('#C3P340_7');
 
 		i_enable('#C3P342_1');
 		i_enable('#C3P343_1');
@@ -4289,7 +4288,6 @@ $('#C3P333').change(function(event) {
 		i_disable('#C3P341_6');
 		i_disable('#C3P340_7');
 		i_disable('#C3P341_7');
-		i_disable('#C3P340_7');
 
 		i_disable('#C3P342_1');
 		i_disable('#C3P343_1');
@@ -4366,7 +4364,7 @@ $('#C3P333').change(function(event) {
 		i_enable('#C3P341_6');
 		i_enable('#C3P340_7');
 		i_enable('#C3P341_7');
-		i_enable('#C3P340_7');
+
 
 		i_enable('#C3P342_1');
 		i_enable('#C3P343_1');
@@ -4421,6 +4419,177 @@ if(!$("#C3P334").is(':disabled')){
 	}
 	}
 });
+
+$('#C3P335').change(function(event) {
+	if(!$("#C3P335").is(':disabled')){
+
+	if(parseInt($(this).val()) == 1){
+		i_enable('#C3P338_1');
+		i_enable('#C3P339_1');
+		i_enable('#C3P338_2');
+		i_enable('#C3P339_2');
+		i_enable('#C3P338_3');
+		i_enable('#C3P339_3');
+		i_enable('#C3P338_4');
+		i_enable('#C3P339_4');
+		i_enable('#C3P338_5');
+		i_enable('#C3P339_5');
+		i_enable('#C3P338_OBS');
+		i_enable('#C3P340_1');
+		i_enable('#C3P341_1');
+		i_enable('#C3P340_2');
+		i_enable('#C3P341_2');
+		i_enable('#C3P340_3');
+		i_enable('#C3P341_3');
+		i_enable('#C3P340_4');
+		i_enable('#C3P341_4');
+		i_enable('#C3P340_5');
+		i_enable('#C3P341_5');
+		i_enable('#C3P340_6');
+		i_enable('#C3P341_6');
+		i_enable('#C3P340_7');
+		i_enable('#C3P341_7');
+
+		i_disable('#C3P342_1');
+		i_disable('#C3P343_1');
+		i_disable('#C3P342_2');
+		i_disable('#C3P343_2');
+		i_disable('#C3P342_3');
+		i_disable('#C3P343_3');
+		i_disable('#C3P342_4');
+		i_disable('#C3P343_4');
+		i_disable('#C3P342_5');
+		i_disable('#C3P343_5');
+		i_disable('#C3P342_OBS');
+
+
+		i_disable('#C3P344_1');
+		i_disable('#C3P345_1');
+		i_disable('#C3P344_2');
+		i_disable('#C3P345_2');
+		i_disable('#C3P344_3');
+		i_disable('#C3P345_3');
+		i_disable('#C3P344_4');
+		i_disable('#C3P345_4');
+		i_disable('#C3P344_5');
+		i_disable('#C3P345_5');
+		i_disable('#C3P344_6');
+		i_disable('#C3P345_6');
+		i_disable('#C3P344_7');
+		i_disable('#C3P345_7');				
+	}else if(parseInt($(this).val()) == 2){
+		i_disable('#C3P338_1');
+		i_disable('#C3P339_1');
+		i_disable('#C3P338_2');
+		i_disable('#C3P339_2');
+		i_disable('#C3P338_3');
+		i_disable('#C3P339_3');
+		i_disable('#C3P338_4');
+		i_disable('#C3P339_4');
+		i_disable('#C3P338_5');
+		i_disable('#C3P339_5');
+		i_disable('#C3P338_OBS');
+		i_disable('#C3P340_1');
+		i_disable('#C3P341_1');
+		i_disable('#C3P340_2');
+		i_disable('#C3P341_2');
+		i_disable('#C3P340_3');
+		i_disable('#C3P341_3');
+		i_disable('#C3P340_4');
+		i_disable('#C3P341_4');
+		i_disable('#C3P340_5');
+		i_disable('#C3P341_5');
+		i_disable('#C3P340_6');
+		i_disable('#C3P341_6');
+		i_disable('#C3P340_7');
+		i_disable('#C3P341_7');
+
+		i_enable('#C3P342_1');
+		i_enable('#C3P343_1');
+		i_enable('#C3P342_2');
+		i_enable('#C3P343_2');
+		i_enable('#C3P342_3');
+		i_enable('#C3P343_3');
+		i_enable('#C3P342_4');
+		i_enable('#C3P343_4');
+		i_enable('#C3P342_5');
+		i_enable('#C3P343_5');
+		i_enable('#C3P342_OBS');
+
+
+		i_enable('#C3P344_1');
+		i_enable('#C3P345_1');
+		i_enable('#C3P344_2');
+		i_enable('#C3P345_2');
+		i_enable('#C3P344_3');
+		i_enable('#C3P345_3');
+		i_enable('#C3P344_4');
+		i_enable('#C3P345_4');
+		i_enable('#C3P344_5');
+		i_enable('#C3P345_5');
+		i_enable('#C3P344_6');
+		i_enable('#C3P345_6');
+		i_enable('#C3P344_7');
+		i_enable('#C3P345_7');	
+	}else if(parseInt($(this).val()) == 3){
+		i_enable('#C3P338_1');
+		i_enable('#C3P339_1');
+		i_enable('#C3P338_2');
+		i_enable('#C3P339_2');
+		i_enable('#C3P338_3');
+		i_enable('#C3P339_3');
+		i_enable('#C3P338_4');
+		i_enable('#C3P339_4');
+		i_enable('#C3P338_5');
+		i_enable('#C3P339_5');
+		i_enable('#C3P338_OBS');
+		i_enable('#C3P340_1');
+		i_enable('#C3P341_1');
+		i_enable('#C3P340_2');
+		i_enable('#C3P341_2');
+		i_enable('#C3P340_3');
+		i_enable('#C3P341_3');
+		i_enable('#C3P340_4');
+		i_enable('#C3P341_4');
+		i_enable('#C3P340_5');
+		i_enable('#C3P341_5');
+		i_enable('#C3P340_6');
+		i_enable('#C3P341_6');
+		i_enable('#C3P340_7');
+		i_enable('#C3P341_7');
+
+		i_enable('#C3P342_1');
+		i_enable('#C3P343_1');
+		i_enable('#C3P342_2');
+		i_enable('#C3P343_2');
+		i_enable('#C3P342_3');
+		i_enable('#C3P343_3');
+		i_enable('#C3P342_4');
+		i_enable('#C3P343_4');
+		i_enable('#C3P342_5');
+		i_enable('#C3P343_5');
+		i_enable('#C3P342_OBS');
+
+
+		i_enable('#C3P344_1');
+		i_enable('#C3P345_1');
+		i_enable('#C3P344_2');
+		i_enable('#C3P345_2');
+		i_enable('#C3P344_3');
+		i_enable('#C3P345_3');
+		i_enable('#C3P344_4');
+		i_enable('#C3P345_4');
+		i_enable('#C3P344_5');
+		i_enable('#C3P345_5');
+		i_enable('#C3P344_6');
+		i_enable('#C3P345_6');
+		i_enable('#C3P344_7');
+		i_enable('#C3P345_7');	
+	}
+	}
+});
+
+
 
 
 $('#C3P336_3').change(function(event) {
@@ -4610,6 +4779,31 @@ $('#C3P355').change(function(event) {
 	}
 });
 
+$('#C3P359').change(function(event) {
+	if($(this).val() == 1){
+		i_disable('#C3P360_1');
+		i_disable('#C3P360_2');
+		i_disable('#C3P360_3');
+		i_disable('#C3P360_4');
+		i_disable('#C3P360_5');
+		i_disable('#C3P360_6');
+		i_disable('#C3P360_7');
+		i_disable('#C3P360_8');
+		i_disable('#C3P360_OBS');
+	}else{
+		i_enable('#C3P360_1');
+		i_enable('#C3P360_2');
+		i_enable('#C3P360_3');
+		i_enable('#C3P360_4');
+		i_enable('#C3P360_5');
+		i_enable('#C3P360_6');
+		i_enable('#C3P360_7');
+		i_enable('#C3P360_8');
+		i_enable('#C3P360_OBS');
+	}
+});
+
+
 $('#C3P360_8').change(function(event) {
 	if($(this).val() == 1){
 		$('#C3P360_OBS').removeAttr('disabled');
@@ -4784,7 +4978,7 @@ $("#C3P314_CCPP").change(function(event) {
 if(<?php echo $CAP03->num_rows() ?> == 1){
 	$.each( <?php echo json_encode($CAP03->row()); ?>, function(fila, valor) {
 
-			if( fila == 'C3P301' || fila == 'C3P304_CCDD' || fila == 'C3P308' || fila == 'C3P310' || fila == 'C3P314_CCDD' || fila == 'C3P307_C1' || fila == 'C3P307_C2' || fila == 'C3P307_C3' || fila == 'C3P307_C4' || fila == 'C3P309_9' ||  fila == 'C3P317_CU' || fila == 'C3P317_NCI' ||  fila == 'C3P318_8' || fila == 'C3P319' || fila == 'C3P320_MES'  || fila == 'C3P321_1' || fila == 'C3P321_2' || fila == 'C3P321_3' || fila == 'C3P321_4' || fila == 'C3P321_5' || fila == 'C3P321_6' || fila == 'C3P321_7' || fila == 'C3P322' || fila == 'C3P322_NCU' || fila == 'C3P323' || fila == 'C3P324' || fila == 'C3P328' || fila == 'C3P329' || fila == 'C3P330' || fila == 'C3P331' || fila == 'C3P332' || fila == 'C3P333' || fila == 'C3P334' || fila == 'C3P336_3' || fila == 'C3P337' || fila == 'C3P338_5' || fila == 'C3P342_OBS' || fila == 'C3P342_5'  ||  fila == 'C3P348'  || fila == 'C3P349'  || fila == 'C3P350'|| fila == 'C3P354' || fila == 'C3P355' || fila == 'C3P360_8'  || fila == 'C3P361_5'  || fila == 'C3P362_8'){
+			if( fila == 'C3P301' || fila == 'C3P304_CCDD' || fila == 'C3P308' || fila == 'C3P310' || fila == 'C3P314_CCDD' || fila == 'C3P307_C1' || fila == 'C3P307_C2' || fila == 'C3P307_C3' || fila == 'C3P307_C4' || fila == 'C3P309_9' ||  fila == 'C3P317_CU' || fila == 'C3P317_NCI' ||  fila == 'C3P318_8' || fila == 'C3P319' || fila == 'C3P320_MES'  || fila == 'C3P321_1' || fila == 'C3P321_2' || fila == 'C3P321_3' || fila == 'C3P321_4' || fila == 'C3P321_5' || fila == 'C3P321_6' || fila == 'C3P321_7' || fila == 'C3P322' || fila == 'C3P322_NCU' || fila == 'C3P323' || fila == 'C3P324' || fila == 'C3P328' || fila == 'C3P329' || fila == 'C3P330' || fila == 'C3P331' || fila == 'C3P332' || fila == 'C3P333' || fila == 'C3P334' || fila == 'C3P335' || fila == 'C3P336_3' || fila == 'C3P337' || fila == 'C3P338_5' || fila == 'C3P342_OBS' || fila == 'C3P342_5'  ||  fila == 'C3P348'  || fila == 'C3P349'  || fila == 'C3P350'|| fila == 'C3P354' || fila == 'C3P355' || fila == 'C3P359' || fila == 'C3P360_8'  || fila == 'C3P361_5'  || fila == 'C3P362_8'){
 	   			$('#' + fila).val(valor);
 	   			$('#' + fila).trigger('change');	
 

@@ -9,28 +9,28 @@ $C6P601_1 = array(
 	'name'	=> 'C6P601_1',
 	'id'	=> 'C6P601_1',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap6_res',
 );
 
 $C6P601_2 = array(
 	'name'	=> 'C6P601_2',
 	'id'	=> 'C6P601_2',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap6_res',
 );
 
 $C6P601_3 = array(
 	'name'	=> 'C6P601_3',
 	'id'	=> 'C6P601_3',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap6_res',
 );
 
 $C6P601_4 = array(
 	'name'	=> 'C6P601_4',
 	'id'	=> 'C6P601_4',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap6_res',
 );
 
 
@@ -38,7 +38,7 @@ $C6P601_5 = array(
 	'name'	=> 'C6P601_5',
 	'id'	=> 'C6P601_5',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap6_res',
 );
 
 
@@ -46,7 +46,7 @@ $C6P601_6 = array(
 	'name'	=> 'C6P601_6',
 	'id'	=> 'C6P601_6',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap6_res',
 );
 
 
@@ -54,7 +54,7 @@ $C6P601_7 = array(
 	'name'	=> 'C6P601_7',
 	'id'	=> 'C6P601_7',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap6_res',
 );
 
 
@@ -62,21 +62,21 @@ $C6P601_8 = array(
 	'name'	=> 'C6P601_8',
 	'id'	=> 'C6P601_8',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap6_res',
 );
 
 $C6P601_9 = array(
 	'name'	=> 'C6P601_9',
 	'id'	=> 'C6P601_9',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap6_res',
 );
 
 $C6P601_10 = array(
 	'name'	=> 'C6P601_10',
 	'id'	=> 'C6P601_10',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap6_res',
 );
 
 
@@ -84,42 +84,42 @@ $C6P601_11 = array(
 	'name'	=> 'C6P601_11',
 	'id'	=> 'C6P601_11',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap6_res',
 );
 
 $C6P601_12 = array(
 	'name'	=> 'C6P601_12',
 	'id'	=> 'C6P601_12',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap6_res',
 );
 
 $C6P601_13 = array(
 	'name'	=> 'C6P601_13',
 	'id'	=> 'C6P601_13',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap6_res',
 );
 
 $C6P601_14 = array(
 	'name'	=> 'C6P601_14',
 	'id'	=> 'C6P601_14',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap6_res',
 );
 
 $C6P601_15 = array(
 	'name'	=> 'C6P601_15',
 	'id'	=> 'C6P601_15',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap6_res',
 );
 
 $C6P601_16 = array(
 	'name'	=> 'C6P601_16',
 	'id'	=> 'C6P601_16',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap6_res',
 );
 
 $C6P602H_1 = array(
@@ -1073,10 +1073,48 @@ echo form_close();
 
 $(function(){
 
+$(document).on("change",'.cap6_res',function() {
+		var pre = $(this).attr('id');
+		var nro;
+
+			if(pre.length == 8){
+				 nro = pre.substring(7,8);
+			}
+			else if(pre.length == 9){
+				nro = pre.substring(7,9);
+			}	
+
+	if($(this).val() == 2){
+		 	i_disable('#C6P602H_' + nro);
+		 	i_disable('#C6P602M_' + nro);
+		 	i_disable('#C6P602A_' + nro);
+
+		 	i_disable('#C6P603H_' + nro);
+		 	i_disable('#C6P603M_' + nro);
+		 	i_disable('#C6P603A_' + nro);
+	}else{
+		 	i_enable('#C6P602H_' + nro);
+		 	i_enable('#C6P602M_' + nro);
+		 	i_enable('#C6P602A_' + nro);
+
+		 	i_enable('#C6P603H_' + nro);
+		 	i_enable('#C6P603M_' + nro);
+		 	i_enable('#C6P603A_' + nro);	 	
+	}
+
+});
+
+
+
 if(<?php echo $CAP06->num_rows() ?> == 1){
 
 	$.each( <?php echo json_encode($CAP06->row()); ?>, function(fila, valor) {
-	        $('#' + fila).val(valor);       	
+	    if(fila == 'C6P601_1' || fila == 'C6P601_2'  || fila == 'C6P601_3'  || fila == 'C6P601_4' || fila == 'C6P601_5' || fila == 'C6P601_6' || fila == 'C6P601_7' || fila == 'C6P601_8' || fila == 'C6P601_9' || fila == 'C6P601_10' || fila == 'C6P601_11' || fila == 'C6P601_12' || fila == 'C6P601_13' || fila == 'C6P601_14' || fila == 'C6P601_15' || fila == 'C6P601_16'){
+			$('#' + fila).val(valor);
+			$('#' + fila).trigger('change');		
+		}else{	
+			$('#' + fila).val(valor);     
+		}  	
 	}); 
 
 }
