@@ -5033,14 +5033,14 @@ $("#cap3_f").validate({
 		    		required:true,
 		    	},			
 		    	C3P302:{
-		    		range:[1,4],			    			
+		    		valrango:[1,4,9],			    			
 		    		required:true,
 		    	},	
 		    	C3P303:{
 		    		required:true,
 		    	},		
 		    	C3P303A:{
-		    		range:[1,2],			    			
+		    		valrango:[1,2,9],			    			
 		    		required:true,		    		
 		    	},		
 		    	C3P304_CCDD:{
@@ -5059,19 +5059,19 @@ $("#cap3_f").validate({
 		    		required:true,
 		    	},		
 		    	C3P306_1:{
-		    		range:[0,1],			    			
+		    		valrango:[0,1,9],			    			
 		    		required:true,
 		    	},	
 		    	C3P306_2:{
-		    		range:[0,1],			    			
+		    		valrango:[0,1,9],			    			
 		    		required:true,
 		    	},	
 		    	C3P306_3:{
-		    		range:[0,1],			    			
+		    		valrango:[0,1,9],			    			
 		    		required:true,
 		    	},	
 		    	C3P306_4:{
-		    		range:[0,1],			    			
+		    		valrango:[0,1,9],			    			
 		    		required:true,
 		    	},	
 
@@ -5455,27 +5455,27 @@ $("#cap3_f").validate({
 		    	},	
 
 		    	C3P338_1:{		    			
-		    		range:[1,2],			    				    			
+		    		valrango:[1,2,9],			    				    			
 		    		required:true,		    			
 		    	},	
 
 		    	C3P338_2:{		    			
-		    		range:[1,2],			    				    			
+		    		valrango:[1,2,9],			    				    			
 		    		required:true,		    			
 		    	},	
 
 		    	C3P338_3:{		    			
-		    		range:[1,2],			    				    			
+		    		valrango:[1,2,9],			    				    			
 		    		required:true,		    			
 		    	},	
 
 		    	C3P338_4:{		    			
-		    		range:[1,2],			    				    			
+		    		valrango:[1,2,9],			    				    			
 		    		required:true,		    			
 		    	},	
 
 		    	C3P338_5:{		    			
-		    		range:[1,2],			    				    			
+		    		valrango:[1,2,9],			    				    			
 		    		required:true,		    			
 		    	},	
 
@@ -5483,236 +5483,236 @@ $("#cap3_f").validate({
 		    	},	
 
 		    	C3P339_1:{		    			
-		    		range:[1,4],			    				    				    			
+		    		valrango:[1,4,9],			    				    				    			
 		    	},	
 
 		    	C3P339_2:{		    			
-		    		range:[1,4],			    				    				    			
+		    		valrango:[1,4,9],			    				    				    			
 		    	},	
 		    	C3P339_3:{		    			
-		    		range:[1,4],			    				    				    			
+		    		valrango:[1,4,9],			    				    				    			
 		    	},	
 
 		    	C3P339_4:{		    			
-		    		range:[1,4],			    				    				    			
+		    		valrango:[1,4,9],			    				    				    			
 		    	},	
 
 		    	C3P339_5:{		    			
-		    		range:[1,4],			    				    				    			
+		    		valrango:[1,4,9],			    				    				    			
 		    	},	
 
 		    	C3P340_1:{		    			
-		    		range:[1,2],			    				    				    			
+		    		valrango:[1,2,9],			    				    				    			
 		    		required:true,		    			
 		    	},	
 
 		    	C3P340_2:{		    			
-		    		range:[1,2],			    				    				    			
+		    		valrango:[1,2,9],			    				    				    			
 		    		required:true,		    			
 		    	},	
 
 		    	C3P340_3:{		    			
-		    		range:[1,2],			    				    				    			
+		    		valrango:[1,2,9],			    				    				    			
 		    		required:true,		    			
 		    	},	
 
 		    	C3P340_4:{		    			
-		    		range:[1,2],			    				    				    			
+		    		valrango:[1,2,9],			    				    				    			
 		    		required:true,		    			
 		    	},	
 
 		    	C3P340_5:{		    			
-		    		range:[1,2],			    				    				    			
+		    		valrango:[1,2,9],			    				    				    			
 		    		required:true,		    			
 		    	},	
 
 		    	C3P340_6:{		    			
-		    		range:[1,2],			    				    				    			
+		    		valrango:[1,2,9],			    				    				    			
 		    		required:true,		    			
 		    	},	
 
 		    	C3P340_7:{		    			
-		    		range:[1,2],			    				    				    			
+		    		valrango:[1,2,9],			    				    				    			
 		    		required:true,		    			
 		    	},	
 
 		    	C3P341_1:{		    			
-		    		range:[1,4],			    				    				    				    			
+		    		valrango:[1,4,9],			    				    				    				    			
 		    	},	
 
 		    	C3P341_2:{		    			
-		    		range:[1,4],			    				    				    				    			
+		    		valrango:[1,4,9],			    				    				    				    			
 		    	},	
 
 		    	C3P341_3:{		    			
-		    		range:[1,4],			    				    				    				    			
+		    		valrango:[1,4,9],			    				    				    				    			
 		    	},	
 
 		    	C3P341_4:{		    			
-		    		range:[1,4],			    				    				    				    			
+		    		valrango:[1,4,9],			    				    				    				    			
 		    	},	
 
 		    	C3P341_5:{		    			
-		    		range:[1,4],			    				    				    				    			
+		    		valrango:[1,4,9],			    				    				    				    			
 		    	},	
 
 		    	C3P341_6:{		    			
-		    		range:[1,4],			    				    				    				    			
+		    		valrango:[1,4,9],			    				    				    				    			
 		    	},	
 
 		    	C3P341_7:{		    			
-		    		range:[1,4],			    				    				    				    			
+		    		valrango:[1,4,9],			    				    				    				    			
 		    	},	
 
 		    	C3P342_1:{		    			
-		    		range:[1,2],			    				    				    				    			
+		    		valrango:[1,2,9],			    				    				    				    			
 		    		required:true,		    			
 		    	},	
 		    	C3P342_2:{		    			
-		    		range:[1,2],			    				    				    				    			
+		    		valrango:[1,2,9],			    				    				    				    			
 		    		required:true,		    			
 		    	},	
 		    	C3P342_3:{		    			
-		    		range:[1,2],			    				    				    				    			
+		    		valrango:[1,2,9],			    				    				    				    			
 		    		required:true,		    			
 		    	},	
 		    	C3P342_4:{		    			
-		    		range:[1,2],			    				    				    				    			
+		    		valrango:[1,2,9],			    				    				    				    			
 		    		required:true,		    			
 		    	},	
 		    	C3P342_5:{		    			
-		    		range:[1,2],			    				    				    				    			
+		    		valrango:[1,2,9],			    				    				    				    			
 		    		required:true,		    			
 		    	},	
 		    	C3P342_OBS:{		    					    				    				    				    			
 		    	},	
 
 		    	C3P343_1:{		    			
-		    		range:[1,4],			    				    				    				    			
+		    		valrango:[1,4,9],			    				    				    				    			
 		    	},	
 
 		    	C3P343_2:{		    			
-		    		range:[1,4],			    				    				    				    			
+		    		valrango:[1,4,9],			    				    				    				    			
 		    	},	
 
 		    	C3P343_3:{		    			
-		    		range:[1,4],			    				    				    				    			
+		    		valrango:[1,4,9],			    				    				    				    			
 		    	},	
 
 		    	C3P343_4:{		    			
-		    		range:[1,4],			    				    				    				    			
+		    		valrango:[1,4,9],			    				    				    				    			
 		    	},	
 
 		    	C3P343_5:{		    			
-		    		range:[1,4],			    				    				    				    			
+		    		valrango:[1,4,9],			    				    				    				    			
 		    	},	
 
 		    	C3P344_1:{		    			
-		    		range:[1,2],			    				    				    				    			
+		    		valrango:[1,2,9],			    				    				    				    			
 		    		required:true,		    			
 		    	},	
 
 		    	C3P344_2:{		    			
-		    		range:[1,2],			    				    				    				    			
+		    		valrango:[1,2,9],			    				    				    				    			
 		    		required:true,		    			
 		    	},	
 
 		    	C3P344_3:{		    			
-		    		range:[1,2],			    				    				    				    			
+		    		valrango:[1,2,9],			    				    				    				    			
 		    		required:true,		    			
 		    	},
 
 		    	C3P344_4:{		    			
-		    		range:[1,2],			    				    				    				    			
+		    		valrango:[1,2,9],			    				    				    				    			
 		    		required:true,		    			
 		    	},
 
 		    	C3P344_5:{		    			
-		    		range:[1,2],			    				    				    				    			
+		    		valrango:[1,2,9],			    				    				    				    			
 		    		required:true,		    			
 		    	},
 
 		    	C3P344_6:{		    			
-		    		range:[1,2],			    				    				    				    			
+		    		valrango:[1,2,9],			    				    				    				    			
 		    		required:true,		    			
 		    	},
 
 		    	C3P344_7:{		    			
-		    		range:[1,2],			    				    				    				    			
+		    		valrango:[1,2,9],			    				    				    				    			
 		    		required:true,		    			
 		    	},
 
 		    	C3P345_1:{		    			
-		    		range:[1,4],			    				    				    				    			
+		    		valrango:[1,4,9],			    				    				    				    			
 		    	},	
 
 		    	C3P345_2:{		    			
-		    		range:[1,4],			    				    				    				    			
+		    		valrango:[1,4,9],			    				    				    				    			
 		    	},	
 
 		    	C3P345_3:{		    			
-		    		range:[1,4],			    				    				    				    			
+		    		valrango:[1,4,9],			    				    				    				    			
 		    	},	
 
 		    	C3P345_4:{		    			
-		    		range:[1,4],			    				    				    				    			
+		    		valrango:[1,4,9],			    				    				    				    			
 		    	},	
 
 		    	C3P345_5:{		    			
-		    		range:[1,4],			    				    				    				    			
+		    		valrango:[1,4,9],			    				    				    				    			
 		    	},	
 
 		    	C3P345_6:{		    			
-		    		range:[1,4],			    				    				    				    			
+		    		valrango:[1,4,9],			    				    				    				    			
 		    	},	
 
 		    	C3P345_7:{		    			
-		    		range:[1,4],			    				    				    				    			
+		    		valrango:[1,4,9],			    				    				    				    			
 		    	},	
 
 		    	C3P346_1:{		    			
-		    		range:[1,4],			    				    				    				    			
+		    		valrango:[1,4,9],			    				    				    				    			
 		    	},	
 
 		    	C3P346_2:{		    			
-		    		range:[1,4],			    				    				    				    			
+		    		valrango:[1,4,9],			    				    				    				    			
 		    	},	
 
 		    	C3P347_1:{		    			
-		    		range:[1,3],			    				    				    				    			
+		    		valrango:[1,3,9],			    				    				    				    			
 		    		required:true,		    			
 		    	},	
 
 		    	C3P347_2:{		    			
-		    		range:[1,3],			    				    				    				    			
+		    		valrango:[1,3,9],			    				    				    				    			
 		    		required:true,		    			
 		    	},	
 		    	C3P347_3:{		    			
-		    		range:[1,3],			    				    				    				    			
+		    		valrango:[1,3,9],			    				    				    				    			
 		    		required:true,		    			
 		    	},	
 		    	C3P347_4:{		    			
-		    		range:[1,3],			    				    				    				    			
+		    		valrango:[1,3,9],			    				    				    				    			
 		    		required:true,		    			
 		    	},	
 
 		    	C3P347_5:{		    			
-		    		range:[1,3],			    				    				    				    			
+		    		valrango:[1,3,9],			    				    				    				    			
 		    		required:true,		    			
 		    	},	
 
 		    	C3P347_6:{		    			
-		    		range:[1,3],			    				    				    				    			
+		    		valrango:[1,3,9],			    				    				    				    			
 		    		required:true,		    			
 		    	},	
 
 		    	C3P347_7:{		    			
-		    		range:[1,3],			    				    				    				    			
+		    		valrango:[1,3,9],			    				    				    				    			
 		    		required:true,		    			
 		    	},	
 
 		    	C3P347_8:{		    			
-		    		range:[1,3],			    				    				    				    			
+		    		valrango:[1,3,9],			    				    				    				    			
 		    		required:true,		    			
 		    	},	
 

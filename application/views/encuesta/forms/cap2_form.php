@@ -565,15 +565,16 @@ if(<?php echo $CAP02->num_rows() ?> == 1){
 $("#cap2_f").validate({
 		    rules: {  
 		    	C2P201:{
-		    		range:[1,2],
+		    		valrango:[1,2,9],
 		    		required:true,
 		    	},	
 		    	C2P202:{
 		    	},		
 		    	C2P202A:{
+		    		valrango:[1,2,9],
 		    	},			
 		    	C2P203:{
-		    		range:[1,2],
+		    		valrango:[1,2,9],
 		    		digits:true,
 		    		required:true,		    		
 		    	},	
@@ -637,43 +638,43 @@ $("#cap2_f").validate({
 		    	C2P206_5OBS:{   	    			
 		    	},	
 		    	C2P207:{   
-		    		range:[1,6],
+		    		valrango:[1,6,9],
 		    		required:true,				    			
 		    	},
 	    		C2P207_OBS:{   	    			
 		    	},	
 		    	C2P208:{   
-		    		range:[1,5],			    			
+		    		valrango:[1,5,9],			    			
 		    	},
 		    	C2P208_OBS:{   	    			
 		    	},	
 		    	C2P209_ANIO:{   
-		    		range:[0,50],			    			
+		    		valrango:[0,50,99],			    			
 		    		required:true,				    			
 		    	},
 		    	C2P209_MES:{   
-		    		range:[0,11],			    			
+		    		valrango:[0,11,99],			    			
 		    		required:true,				    			
 		    	},
 		    	C2P210:{   
-		    		range:[1,2],			    			
+		    		valrango:[1,2,9],			    			
 		    	},
 
 		    	C2P211:{   
-		    		range:[1,2],			    			
+		    		valrango:[1,2,9],			    			
 		    		required:true,				    			
 		    	},
 		    	C2P212:{   
-		    		range:[1,5],			    			
+		    		valrango:[1,5,9],			    			
 		    		required:true,				    			
 		    	},		
 		    	C2P212_OBS:{   	    			
 		    	},	
 		    	C2P213:{   
-		    		range:[0,98],			    						    			
+		    		valrango:[0,98,99],			    						    			
 		    	},	
 		    	C2P214:{   
-		    		range:[0,98],			    						    			
+		    		valrango:[0,98,99],			    						    			
 		    	},	
 		    },
 

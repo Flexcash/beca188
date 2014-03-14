@@ -300,11 +300,11 @@ $("#cap4_f").validate({
 				'C4P403_OBS[]':{	    	
 				}, 
 				'C4P404[]':{
-					range:[1,2],
+					valrango:[1,2,9],
 				    requeridodis:true,
 				},	       
 				'C4P405[]':{
-					range:[1,2],
+					valrango:[1,2,9],
 				    requeridodis:true,
 				},  		              
 				'C4P406[]':{

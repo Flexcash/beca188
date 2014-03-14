@@ -891,32 +891,32 @@ $("#cap4b_f").validate({
 		    rules: {  
 
 		    	C4P411_1:{
-		    		range:[1,5],
+		    		valrango:[1,5,9],
 		    	},		
 		    		    	
 		    	C4P411_2:{
-		    		range:[1,5],
+		    		valrango:[1,5,9],
 		    	},	
 		    	C4P411_3:{
-		    		range:[1,5],
+		    		valrango:[1,5,9],
 		    	},	
 		    	C4P411_4:{
-		    		range:[1,5],
+		    		valrango:[1,5,9],
 		    	},	
 		    	C4P411_5:{
-		    		range:[1,5],
+		    		valrango:[1,5,9],
 		    	},	
 		    	C4P411_6:{
-		    		range:[1,5],
+		    		valrango:[1,5,9],
 		    	},	
 		    	C4P411_7:{
-		    		range:[1,5],
+		    		valrango:[1,5,9],
 		    	},	
 		    	C4P411_8:{
-		    		range:[1,5],
+		    		valrango:[1,5,9],
 		    	},	
 		    	C4P411_9:{
-		    		range:[1,5],
+		    		valrango:[1,5,9],
 		    	},	
 
 		    	C4P412_1:{
