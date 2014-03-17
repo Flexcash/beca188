@@ -423,12 +423,12 @@ $("#cap1_f").validate({
 				    required:true,
 				},	       
 				'C1P107[]':{
-		    		range:[1,7],
+		    		valrango:[1,7,9],
 					digits:true,
 				    requeridodis:true,
 				},  		              
 				'C1P108[]':{
-		    		range:[1,7],
+		    		valrango:[1,7,9],
 					digits:true,
 				    requeridodis: true,			    	
 				}, 		
@@ -438,12 +438,12 @@ $("#cap1_f").validate({
 				    requeridodis: true,			    	
 				}, 		
 				'C1P110[]':{
-		    		range:[1,2],
+		    		valrango:[1,2,9],
 					digits:true,
 					requeridodis:true,
 				},  		              
 				'C1P111[]':{
-		    		range:[1,2],
+		    		valrango:[1,2,9],
 					digits:true,
 				    requeridodis: true,			    	
 				}, 		
