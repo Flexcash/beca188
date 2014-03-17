@@ -251,7 +251,7 @@ $(document).on("change",'.cap1_res6',function() {
 				nro = pre.substring(7,9);
 			}				
 			
-	if(parseInt($(this).val()) <= 3){
+	if(parseInt($(this).val()) < 3){
 		 	i_disread('#C1P107_' + nro);
 		 	i_disread('#C1P108_' + nro);
 		 	if(parseInt($('#C1P103_'+ nro).val()) != 1){
@@ -264,7 +264,7 @@ $(document).on("change",'.cap1_res6',function() {
 		 	i_disread('#C1P114_' + nro);
 		 	i_disread('#C1P114_OBS_' + nro);
 		 	}
-	}else if(parseInt($(this).val()) > 3 && parseInt($(this).val()) < 14){	
+	}else if(parseInt($(this).val()) >= 3 && parseInt($(this).val()) < 14){	
 			i_enread('#C1P107_' + nro);
 		 	i_enread('#C1P108_' + nro);
 		 	if(parseInt($('#C1P103_'+ nro).val()) != 1){

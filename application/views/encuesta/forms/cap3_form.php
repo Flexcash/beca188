@@ -2879,6 +2879,7 @@ $('#C3P301').change(function(event) {
 		i_disable('#C3P307_C3C');
 		i_disable('#C3P307_C4');
 		i_disable('#C3P307_C4C');
+
 	}else{
 		i_enable('#C3P302');
 		i_enable('#C3P303');
@@ -5377,7 +5378,7 @@ $("#cap3_f").validate({
 		    	},	
 
 		    	C3P329:{		    			
-		    		range:[1,10],			    			
+		    		valrango:[1,10,99],			    			
 		    		required:true,
 		    	},	
 
