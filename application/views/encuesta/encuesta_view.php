@@ -419,6 +419,120 @@ $.validator.addMethod("valtexto", function(value, element,arg){
 }, "Ingrese minutos válidos");
 
 
+$.validator.addMethod("valmesx", function(value, element, arg){
+    flag = false;
+    var mes = parseInt(value);
+    var dia = parseInt($('#' + arg[0]).val());
+    if(mes == 1 || mes == 3  || mes == 5  || mes == 7 || mes == 8 || mes == 10 || mes == 12){
+      if(dia <= 31)
+        flag = true
+    }else if(mes == 4 || mes == 6  || mes == 9  || mes == 11){
+      if(dia <= 30)
+        flag = true
+    }else if(mes == 2){
+      if(dia <= 29)
+        flag = true
+    }
+    return flag;
+ }, "Debe ingresar un mes y día válidos");  
+
+
+$.validator.addMethod("valmescare", function(value, element, arg){
+    flag = false;
+    var mes = parseInt(value);
+
+
+    var pre = $(element).attr('id');
+    var nro;
+
+      if(pre.length == 11){
+         nro = pre.substring(10,11);
+      }
+      else if(pre.length == 12){
+        nro = pre.substring(10,12);
+      }       
+
+      dia = parseInt($('#' + arg[0] + nro).val())
+    if(mes == 1 || mes == 3  || mes == 5  || mes == 7 || mes == 8 || mes == 10 || mes == 12){
+      if(dia <= 31)
+        flag = true
+    }else if(mes == 4 || mes == 6  || mes == 9  || mes == 11){
+      if(dia <= 30)
+        flag = true
+    }else if(mes == 2){
+      if(dia <= 29)
+        flag = true
+    }
+    return flag;
+ }, "Debe ingresar un mes y día válidos");  
+
+$.validator.addMethod("valmescareprox", function(value, element, arg){
+    flag = false;
+    var mes = parseInt(value);
+
+
+    var pre = $(element).attr('id');
+    var nro;
+
+if(value != ''){
+      if(pre.length == 15){
+         nro = pre.substring(14,15);
+      }
+      else if(pre.length == 16){
+        nro = pre.substring(14,16);
+      }       
+
+      dia = parseInt($('#' + arg[0] + nro).val())
+    if(mes == 1 || mes == 3  || mes == 5  || mes == 7 || mes == 8 || mes == 10 || mes == 12){
+      if(dia <= 31)
+        flag = true
+    }else if(mes == 4 || mes == 6  || mes == 9  || mes == 11){
+      if(dia <= 30)
+        flag = true
+    }else if(mes == 2){
+      if(dia <= 29)
+        flag = true
+    }
+  }else{
+    flag = true;
+  }
+    return flag;
+ }, "Debe ingresar un mes y día válidos");  
+
+
+$.validator.addMethod("valmescarj", function(value, element, arg){
+    flag = false;
+    var mes = parseInt(value);
+
+
+    var pre = $(element).attr('id');
+    var nro;
+if(value != ''){
+
+      if(pre.length == 15){
+         nro = pre.substring(14,15);
+      }
+      else if(pre.length == 16){
+        nro = pre.substring(14,16);
+      }       
+
+      dia = parseInt($('#' + arg[0] + nro).val())
+    if(mes == 1 || mes == 3  || mes == 5  || mes == 7 || mes == 8 || mes == 10 || mes == 12){
+      if(dia <= 31)
+        flag = true
+    }else if(mes == 4 || mes == 6  || mes == 9  || mes == 11){
+      if(dia <= 30)
+        flag = true
+    }else if(mes == 2){
+      if(dia <= 29)
+        flag = true
+    }
+
+  }else{
+    flag = true;
+  }    
+    return flag;
+ }, "Debe ingresar un mes y día válidos");  
 
 
 $.ctrl = function(key, callback, args) {

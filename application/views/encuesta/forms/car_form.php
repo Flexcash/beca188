@@ -1359,6 +1359,7 @@ $("#car_f").validate({
 		    	'C0P19_MES[]':{
 		    		valmes:true,
 		    		required:true,				    		
+		    		valmescare: ['C0P19_DIA_'],
 		    	},	
 		    	'C0P19_IH[]':{
 		    		valhora:true,
@@ -1381,6 +1382,7 @@ $("#car_f").validate({
 		    	},	
 		    	'C0P19_MESPROX[]':{
 		    		valmes:true,		    			    		
+		    		valmescareprox: ['C0P19_DIAPROX_'],
 		    	},	
 		    	'C0P19_HPROX[]':{
 		    		valhora:true,	    			    		
@@ -1400,6 +1402,7 @@ $("#car_f").validate({
 		    	},	
 		    	'C0P19_JEF_MES[]':{
 		    		valmes:true,		    		
+		    		valmescarj: ['C0P19_JEF_DIA_'],
 		    	},	
 		    	'C0P19_JEF_IH[]':{
 		    		valhora:true,	    		
@@ -1426,10 +1429,12 @@ $("#car_f").validate({
 		    	C0P20_MES:{
 		    		valmes:true,
 		    		required:true,	
+		    		valmesx: ['C0P20_DIA'],
 		    	},	
 		    	C0P20_RFINAL:{
 		    		range:[1,7],
 		    		required:true,	
+		    		valcaresu: ['C0P19_RVISITA_', 'pcar_num'],
 		    	},	
 		    	C0P20_RFINAL_O:{
 		    	},			
