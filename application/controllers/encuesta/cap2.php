@@ -68,7 +68,8 @@ class Cap2 extends CI_Controller {
 						$msg = 'Se ha modificado satisfactoriamente el Cap. II';
 					}
 
-			}			
+			}	
+					
 			$datos['flag'] = $flag;	
 			$datos['msg'] = $msg;	
 			$data['datos'] = $datos;
