@@ -26,6 +26,7 @@ $pcap1_num = array(
 
 $attr = array('class' => 'form-vertical form-auth','id' => 'cap1_f');
 
+
 echo form_open($this->uri->uri_string(),$attr); 
 
 echo '
