@@ -21,7 +21,7 @@ class Cap2 extends CI_Controller {
 				break;
 			}
 		}
-
+//test
 		if (!$flag) {
 			show_404();
 			die();
@@ -69,7 +69,7 @@ class Cap2 extends CI_Controller {
 					}
 
 			}	
-					
+
 			$datos['flag'] = $flag;	
 			$datos['msg'] = $msg;	
 			$data['datos'] = $datos;
